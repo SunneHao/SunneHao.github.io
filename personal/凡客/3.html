@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+       .kkk{
+
+       	width: 600px;
+       	height: 600px;
+       	background: red;
+       }
+       .lll{
+
+       	width: 100px;
+       	height: 100px;
+       	background: blue;
+       	position: absolute;
+       	left: 0px;
+       	right: 0px;
+       	margin: auto;
+       }
+       .bagua{
+
+       	width: 98px;
+       	height: 49px;
+       	border: 1px solid #000;
+       	border-bottom: 50px solid black;
+       	border-radius: 50%;
+       	position: relative;
+       }
+       .bagua:before{
+			content: "";
+			display: block;
+			width: 9px;
+			height: 9px;
+			background: #fff;
+			border: 20px solid #000;
+			border-radius: 50%;
+			position: absolute;
+			left: 0;
+			top: 25px;
+			margin: auto;
+
+       }
+        .bagua:after{
+			content: "";
+			display: block;
+			width: 9px;
+			height: 9px;
+			background: #000;
+			border: 20px solid #fff;
+			border-radius: 50%;
+			position: absolute;
+			right: 0;
+			top: 25px;
+			margin: auto;
+
+       }
+
+
+	</style>
+</head>
+<body>
+	自定义列表
+	<dl>
+		
+		<dt>标题</dt>
+		<dd>第一节</dd>
+		<dd>第二节</dd>
+		<dd>第一节</dd>
+		<dd>第一节</dd>
+		<dd>第一节</dd>
+		<dd>第一节</dd>
+	</dl>
+	<div class="kkk">
+		<div class="lll"></div>
+	</div>
+	cani use可以查询标签在各种浏览器是否支持
+	<!-- 列表标签 -->
+	1.无序列表（disc circle square）
+		<ul type="">
+			<li>111</li>
+			<li>111</li>
+			<li>111</li>
+			<li>111</li>
+		</ul>
+	2.有序列表(1,a,A,i.I五种样式)
+		<ol type="">
+			<li>222</li>
+			<li>222</li>
+			<li>222</li>
+			<li>222</li>
+			<li>222</li>
+		</ol>
+	表单元素(行内块元素)
+	1.单行文本
+		<input type="text" placeholder="提示">
+	2.密码
+		<input type="password">
+	3.提交按钮
+	  <input type="submit" value="登陆">
+	4.重置按钮
+		<input type="reset" value="重置">
+    5.单选
+    	<input type="radio" checked="checked" name="">
+    6.多选
+    	<input type="checkbox" checked="checked">
+    7.文件
+    	<input type="file">
+    8.文本域 留言
+    	<textarea name="" id="" cols="30" rows="10" style="resize: none;"></textarea>
+    9.日期
+    	<input type="date"> <br>
+    	<input type="month"> <br>
+    	<input type="week"> <br>
+    	<input type="time"> <br>
+    	<input type="datetime-local"> <br>
+    10.范围
+    	<input type="number" max="10" min="1" step="2"> <br>
+    	<input type="range" max="10" min="1">   <br>
+    11.正则验证(H5新加的)
+    	<input type="email"> <br>
+    	<input type="url"> <br>
+    	<input type="tel"> <br>
+    12.颜色
+    	<input type="color">
+
+    七:H5语义化 标签
+    	<header></header>(不可以嵌套)
+    	<nav>导航</nav>
+    	<section>定义文档某个区域</section>
+    	<article>定义独立内容</article>
+    	<aside>文章的侧栏，与内容有关的</aside>
+    	<main></main>
+    	<footer>底部</footer>
+
+    	<hgroup>（对标题标签进行分组）
+    		<h1></h1>
+    	</hgroup>
+
+    	<figure>（图片图像）
+    		<figcaption>标题</figcaption>
+    		<pre></pre>
+    		<time datetime="2017-2-14">情人节</time>
+    		<code>代码</code>
+    	</figure>
+		
+
+
+		选择器
+		9.after 在元素之后插入内容
+		  before 在元素之前插入内容
+
+		<div class="bagua">
+			
+		</div>
+
+		
+		阴影
+
+</body>
+</html>

@@ -1,0 +1,240 @@
+.head{
+	width: 100%;
+	height: 0.88rem;
+	background: #007BE3;
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.88rem;
+	position: relative;
+}
+.t{
+	width: 0.7rem;
+	height: 0.67rem;
+	position: absolute;
+	left: 2.4rem;
+	top: 0.1rem;
+}
+.banner{
+	width: 100%;
+	height: 3.32rem;
+	overflow: hidden;
+}
+.t1{
+	width: 100%;
+	height: 3.32rem;
+}
+.nav-top{
+	width: 100%;
+	height: 4.84rem;
+	padding: 0 0.2rem;
+	background: #F5F6FA;
+}
+.nav-top .top {
+	display: flex;
+	justify-content: space-between;
+}
+.nav-top .top li{
+	display: block;
+	width: 1.55rem;
+	height: 1.96rem;
+	font-size: 0.24rem;	
+	text-align: center;
+	padding-top: 0.25rem;	
+}
+.nav-top .bottom {
+	display: flex;
+	margin-top: 0.32rem;
+	justify-content: space-between;
+}
+.nav-top .botttom {
+	display: flex;
+	margin-top:0.2rem; 
+	justify-content: space-between;
+}
+.nav-top .bottom li{
+	display: block;
+	width: 1.55rem;
+	height: 1.96rem;
+	border-radius: 6%;
+	font-size: 0.24rem;
+	text-align: center;
+}
+.nav-top .top a{
+	display: block;
+	width: 100%;
+	height: 1.56rem;
+	background: #fff; 
+	border-radius: 0.25rem;
+	padding-top: 0.25rem;
+	margin-bottom: 0.16rem;
+}
+.nav-top .bottom a{
+	display: block;
+	width: 100%;
+	height: 1.56rem;
+	background: #fff; 
+	border-radius: 0.25rem;
+	padding-top: 0.25rem;
+	margin-bottom: 0.16rem;
+	margin-top: 0.25rem;
+}
+.nav-top .top .inner1 a .content{
+	width: 1.05rem;
+	height: 1.05rem;
+	border-radius: 6%;
+	margin: 0 auto;
+	background: #fff url('../img/图.png') 0 0;
+	background-size: 2rem;
+}
+.nav-top .top .inner2 a .content{
+	width: 1.05rem;
+	height: 1.05rem;
+	border-radius: 6%;
+	margin: 0 auto;
+	background: #fff url('../img/图.png') -0.98rem 0;
+	background-size: 2rem;
+}
+.nav-top .top .inner3 a .content{
+	width: 1.05rem;
+	height: 1.05rem;
+	border-radius: 6%;
+	margin: 0 auto;
+	background: #fff url('../img/图.png') 0.15rem -1.1rem;
+	background-size: 2rem;
+}
+.nav-top .top .inner4 a .content{
+	width: 1.05rem;
+	height: 1.05rem;
+	border-radius: 6%;
+	margin: 0 auto;
+	background: #fff url('../img/ufo.png');
+	background-size: 100%;
+}
+.nav-top .bottom .inner1-1 a .content{
+	width: 1.05rem;
+	height: 1.05rem;
+	border-radius: 6%;
+	margin: 0 auto;
+	background: #fff url('../img/图.png') 0.98rem -1.1rem;
+	background-size: 2rem;
+}
+.nav-top .bottom .inner1-2 a .content{
+	width: 1.05rem;
+	height: 1.05rem;
+	border-radius: 6%;
+	margin: 0 auto;
+	background: #fff url('../img/图.png') 0rem -3.3rem;
+	background-size: 2rem;
+}
+.nav-top .bottom .inner1-3 a .content{
+	width: 1.05rem;
+	height: 1.05rem;
+	border-radius: 6%;
+	margin: 0 auto;
+	background: #fff url('../img/图.png') 0.03rem -2.2rem;
+	background-size: 2rem;
+}
+.nav-top .bottom .inner1-4 a .content{
+	width: 1.05rem;
+	height: 1.05rem;
+	border-radius: 6%;
+	margin: 0 auto;
+	background: #fff url('../img/图.png') 0.98rem -2.2rem;
+	background-size: 2rem;
+}
+.server{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+.server .title {
+    width: 100%;
+    height: 0.63rem;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 0.63rem;
+    font-size: 0.24rem;
+    color: #1378ba;
+}
+.tijian{
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	border: 0.02rem solid #e8e8e8;
+	padding: 0.38rem 0rem 0.48rem 0.16rem;
+	box-sizing: border-box;
+	float: left;
+}
+.tijian-left{
+	width: 1.8rem;
+	height: 1.32rem;
+	float: left;	
+}
+.tijian-left h2{
+	font-size: 0.24rem;
+	color: #000;
+}
+.tijian-left h3{
+	font-size: 0.24rem;
+	color: #999;
+	margin-top: 0.1rem;
+}
+.tijian-right{
+	width: 1.5rem;
+	height: 1.32rem;
+	background: #fff url('../img/图.png') 0 -4.4rem ;
+	background-size: 2rem;
+	float: right;
+}
+.tijian-right1{
+	width: 1.5rem;
+	height: 1.32rem;
+	background: #fff url('../img/图.png') 0 -5.9rem ;
+	background-size: 2rem;
+	float: right;
+}
+.sandi{
+	width: 33.3333%;
+	height: 1.38rem;
+	float: left;
+	border: 0.02rem solid #e8e8e8;
+	padding: 0.4rem 0 0.38rem 0.2rem;
+}
+.sandi-left{
+	width: 1.5rem;
+	height: 0.6rem;
+	float: right;
+}
+.sandi-left h2{
+	font-size: 0.24rem;
+	color: #000;
+	float: left; 
+}
+.sandi-left h3{
+	font-size: 0.24rem;
+	color: #999; 
+	float: left;
+}
+.sandi-right{
+	width: 0.6rem;
+	height: 0.6rem;
+	float: left;
+	background: #fff url('../img/1.png') center center;
+	background-size: cover;
+}
+.sandi-right1{
+	width: 0.6rem;
+	height: 0.6rem;
+	float: left;
+	background: #fff url('../img/2.png') center center;
+	background-size: cover;	
+}
+.sandi-right2{
+	width: 0.6rem;
+	height: 0.6rem;
+	float: left;
+	background: #fff url('../img/3.png') center center;
+	background-size: cover;	
+}
+

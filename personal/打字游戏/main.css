@@ -1,0 +1,212 @@
+html,body{
+    width: 100%;
+    height:100%;
+}
+.bigbox{
+    width:100%;
+    height:100%;
+    position: relative;
+    background: url("img/bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-zhong{
+    width:550px;
+    height:220px;
+    position: absolute;
+    top:20%;
+    left:0;
+    right:0;
+    margin:auto;
+    /*background:#FEC743;*/
+    /*transition: all 1s;*/
+    animation: move 2s linear infinite;
+    background: url("img/logo.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.start{
+    width:400px;
+    height:100px;
+    border-radius: 25%;
+    /*background: #b8fe32;*/
+    border: 0;
+    background: #E03D30;
+    position: absolute;
+    top:50%;
+    left:0;
+    right:0;
+    margin:auto;
+    /*transition: all 1s;*/
+    animation: move 2s linear infinite;
+    background: url("img/start.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+/*.box-zhong:hover{*/
+    /*animation: move 1s ease-in;*/
+/*}*/
+@keyframes move {
+    0%{
+        transform:translateX(0px)
+    }
+    25%{
+        transform:translateX(-50px)
+    }
+    50%{
+        transform:translateX(0px)
+    }
+    75%{
+        transform:translateX(50px)
+    }
+    100%{
+        transform:translateX(0px)
+    }
+}
+/*首屏结束*/
+
+.open{
+    width:100%;
+    height:100%;
+    background: url("img/bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+.main{
+    width:85%;
+    height:100%;
+    float: left;
+    /*background: #6c2fc8;*/
+    position: relative;
+}
+.control{
+    width:15%;
+    height:100%;
+    /*background: #33f;*/
+    float: right;
+}
+.box{
+    width:80%;
+    height:50px;
+    margin:30px auto;
+    background: #fcfcfc;
+    border-radius: 10%;
+}
+.name{
+    height:20px;
+    text-align: center;
+    line-height:20px;
+}
+.scor,.life,.guan{
+    width:80%;
+    height:30px;
+    background: #00ffff;
+    margin:0 auto;
+    text-align: center;
+    line-height:30px;
+    border-radius: 5px;
+}
+.letter{
+    width:120px;
+    height:120px;
+    /*border:1px solid #000;*/
+    font-size: 30px;
+    text-align: center;
+    line-height:80px;
+    position: absolute;
+}
+.box1{
+    width:80%;
+    height:100px;
+    border-radius: 10%;
+    background: url("img/continue.png") center no-repeat;
+    text-align: center;
+    line-height:50px;
+    font-size: 30px;
+    margin:0 auto;
+    margin-top:150px;
+}
+.box2{
+    width:33%;
+    height:100px;
+    border-radius: 10%;
+    margin:0 auto;
+    background: url("img/stop.png") center no-repeat;
+    background-size: 100%;
+    text-align: center;
+    line-height:50px;
+    font-size: 30px;
+    margin-top:10px;
+}
+.paihang{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    border:1px dashed #ccc;
+    cursor: pointer;
+    font-size: 50px;
+    color: #00FFFF;
+    position: absolute;
+    left:10px;
+    top:10px;
+    z-index:2;
+    font-family: 幼圆;
+    /*font-weight:bold;*/
+    text-align: center;
+    line-height: 80px;
+    background: #60b6ff;
+}
+.phbox{
+    width:400px;
+    height:300px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    background: #17668d;
+    border-radius: 10%;
+}
+li{
+    display: block;
+    width:100%;
+    height:20%;
+    background: #17668d;
+}
+.phbox1{
+    width:80%;
+    height:100%;
+    border-bottom: 1px dashed #FEC743;
+    margin:0 auto;
+}
+.phbox2{
+    width:100%;
+    height:80%;
+}
+.downs{
+    width:80px;
+    height:50px;
+    background: #ccc;
+    border:1px dashed #fff;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top:250px;
+    left:320px;
+    cursor: pointer;
+}
+.mask{
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.3);
+    display: none;
+}

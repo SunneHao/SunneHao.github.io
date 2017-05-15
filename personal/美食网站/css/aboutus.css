@@ -1,0 +1,319 @@
+header{
+    width:100%;
+    overflow: hidden;
+}
+.head{
+    width:1300px;
+    height:90px;
+    margin:0 auto;
+    background: #131413;
+}
+.head-left{
+    width:30%;
+    height:100%;
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.t{
+    width:50%;
+    height:100%;
+    float: right;
+}
+.t img{
+    width:100%;
+    height:100%;
+}
+.head-right{
+    width:70%;
+    height:100%;
+    float: right;
+}
+.headzi{
+    width:84%;
+    height:60%;
+    display: flex;
+    justify-content: space-between;
+}
+.headzi li{
+    font-size:20px;
+    font-family: "苹方 中等";
+    color: #fff;
+    float: left;
+    line-height: 3;
+}
+.headzi li:nth-child(1){
+    margin-left: 50px;
+}
+.headzi li:nth-child(6){
+    margin-right: 50px;
+}
+.headzi1{
+    width:83%;
+    height:40%;
+    display: flex;
+    justify-content: space-between;
+}
+.headzi1 li{
+    font-size:16px;
+    font-family: "苹方 中等";
+    color: #737272;
+    line-height: 1;
+    float: left;
+}
+.headzi1 li:nth-child(1){
+    margin-left: 45px;
+}
+.headzi1 li:nth-child(6){
+    margin-right: 40px;
+}
+.banner{
+    width:1300px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.banner1{
+    width:100%;
+    height:500px;
+    margin:0 auto;
+}
+.bannertu{
+    width:100%;
+    height:100%;
+}
+.content{
+    width:1300px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.content1{
+    width:70%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.biaoti{
+    width:100%;
+    height:50px;
+    font-family: "苹方 常规";
+    font-size: 20px;
+    line-height:50px;
+}
+.zhenwen{
+    width:100%;
+    height:230px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.ztitle{
+    width:100%;
+    height:20%;
+    position: relative;
+}
+.ztitle h1{
+    width:25%;
+    height:80%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+.zhenwen ul{
+    width:100%;
+    height:75%;
+    margin-top:20px;
+}
+.zhenwen ul li{
+    font-family:"苹方 常规";
+    font-size: 16px;
+    line-height: 25px;
+    color: #000;
+}
+footer{
+    width:1300px;
+    overflow: hidden;
+    margin:0 auto;
+    background: #0F0E0E;
+}
+.foot{
+    width:70%;
+    height:350px;
+    margin:0 auto;
+}
+.foot-left{
+    width:50%;
+    height:100%;
+    float: left;
+}
+.zuo{
+    width:100%;
+    height:70%;
+}
+.dilogo{
+    width:100%;
+    height:30%;
+    position: relative;
+}
+.dilogo1{
+    width:40%;
+    height:50%;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+.dilogotu{
+    width:100%;
+    height:100%;
+}
+.dizi{
+    width:100%;
+    height:60%;
+    padding-top: 18px;
+}
+.dizi1{
+    width:25%;
+    height:100%;
+    float: left;
+}
+.dizi1 li{
+    font-family: "苹方 常规";
+    line-height: 35px;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+.dizi1 li:nth-child(1){
+    font-size: 15px;
+    font-weight:bold;
+    color: #95896D;
+}
+.dizi2{
+    width:25%;
+    height:100%;
+    float: left;
+}
+.dizi2 li{
+    font-family: "苹方 常规";
+    line-height: 35px;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+.dizi2 li:nth-child(1){
+    font-size: 15px;
+    font-weight:bold;
+    color: #95896D;
+}
+.dizi3{
+    width:50%;
+    height:100%;
+    float: right;
+}
+.dizi3tu{
+    display: block;
+    width:20px;
+    height:25px;
+    float: left;
+}
+.dizi3 li{
+    font-family: "苹方 常规";
+    line-height: 35px;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+.dizi3 li:nth-child(1){
+    font-size: 15px;
+    font-weight:bold;
+    color: #95896D;
+}
+.zuo1{
+    width:100%;
+    height:40%;
+}
+.foot-right{
+    width:50%;
+    height:100%;
+    float: right;
+}
+.foot1{
+    width:70%;
+    height:80px;
+    margin:0 auto;
+}
+.zuokong{
+    width:100%;
+    height:73.5px;
+}
+.liuyan{
+    width:60%;
+    height:80%;
+    padding-top: 18px;
+    float: right;
+}
+.liuyan1{
+    width:100%;
+    height:40%;
+}
+span{
+    display: block;
+    font-size: 15px;
+    font-family: "苹方 常规";
+    font-weight:bold;
+    line-height:30px;
+    color: #95896D;
+}
+.name{
+    width:45%;
+    height:25%;
+    float: left;
+    background: #201F1F;
+    border:none;
+}
+.number{
+    width:50%;
+    height:25%;
+    float: right;
+    background: #201F1F;
+    border:none;
+}
+.map{
+    width:100%;
+    height:20%;
+    background: #201F1F;
+    border:none;
+    margin-top:10px;
+}
+.liuyan2{
+    width:100%;
+    height:60%;
+}
+.liuzi{
+    width:100%;
+    height:60%;
+    background: #201F1F;
+    border:none;
+}
+.tijiao{
+    width:40%;
+    height:25%;
+    margin-top:10px;
+    background: #3C3314;
+    border:none;
+    float: right;
+    color: #ccc;
+}
+.foot1zi{
+    width:60%;
+    height:100%;
+    padding-top: 20px;
+    margin:0 auto;
+}
+.foot1zi li{
+    font-size: 12px;
+    font-family:"苹方 常规";
+    text-align: center;
+    color: #95896D;
+    line-height: 25px;
+}

@@ -1,0 +1,242 @@
+.banner{
+	width: 100%;
+	height: 4.2rem;
+	background-image: url('../img/banner1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden
+}
+
+header{
+    width: 100%;
+    height: 0.89rem;
+    background: #007BE3;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+}
+.box2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box2 li {
+    font-size: 0.32rem;
+    border-bottom: 0.04rem;
+    font-weight: bold;
+}
+.box2 li {
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.box2 li a .lj{
+    font-size: 0.32rem;
+}
+.box2 li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 1rem;
+    border: none;
+    text-align: center;
+}
+.content {
+    width: 100%;
+    padding: 0.1rem 0.24rem 0;
+    box-sizing: border-box;
+}
+.content .mulu {
+    height: 0.62rem;
+    line-height: 0.62rem;
+    width: 100%;
+}
+.content .mulu a {
+    color: #494747;
+    font-size: 0.22rem;
+    line-height: 0.7rem;
+    float: left;
+    margin: 0 0.14rem;
+    font-weight: bold;
+}
+.content .mulu span {
+    float: left;
+    width: 0.16rem;
+    height: 0.2rem;
+    margin-top: 0.26rem;
+    font-size: 0.22rem;
+    text-align: center;
+    color: #494747;
+    background-size: 100%;
+    background: url('../img/jiantou.png') center center no-repeat;
+    overflow: hidden;
+}
+.content .mulu a:nth-child(1) {
+    margin-left: 0;
+}
+.media {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0.06rem 0.24rem 0.28rem;
+    border-bottom: 3px solid #f5f6fa;
+}
+.media a {
+    display: block;
+    margin-top: 0.34rem;
+}
+.media a h2 {
+    font-size: 0.28rem;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 0.22rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.media a .media_con {
+    height: 1.79rem;
+    border-bottom: 1px solid #b8b8b8;
+}
+.media a .media_con .img {
+    width: 2.06rem;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.media a .media_con .img .floor {
+    width: 1.93rem;
+    height: 1.45rem;
+    background: url('../img/media_line.png') 0 0 no-repeat;
+    background-size: cover;
+    float: right;
+}
+.media a .media_con .img .ceil {
+    width: 1.93rem;
+    height: 1.45rem;
+    position: absolute;
+    background-color: #c8c8c8;
+    top: 0.15rem;
+    left: 0;
+}
+.media a .media_con .img .ceil img {
+    width: 100%;
+    height: 100%;
+}
+.media a .media_con p {
+    float: right;
+    width: 4.2rem;
+    height: 1.4rem;
+    font-size: 0.24rem;
+    color: #494747;
+    line-height: 0.36rem;
+    overflow: hidden;
+}
+.media a .media_rem {
+    height: 0.6rem;
+    border-bottom: 1px solid #b8b8b8;
+}
+.media a .media_rem .time {
+    width: 2.1rem;
+    float: left;
+}
+.media a .media_rem div {
+    height: 100%;
+    line-height: 0.6rem;
+}
+.media a .media_rem div i {
+    display: inline-block;
+    width: 0.31rem;
+    height: 0.31rem;
+    margin-top: 0.15rem;
+    float: left;
+    margin-right: 0.05rem;
+}
+.media a .media_rem .time i {
+    background: url('../img/media_icon.png') 0 0 no-repeat;
+    background-size: cover;
+}
+.media a .media_rem div span {
+    font-size: 0.2rem;
+    float: left;
+    margin-top: -0.01rem;
+    color: #666;
+}
+.media a .media_rem .click {
+    width: 2.4rem;
+    float: left;
+}
+.media a .media_rem .click i {
+    background: url('../img/media_icon.png') -0.32rem 0 no-repeat;
+    background-size: cover;
+}
+.media a .media_rem .share i {
+    background: url('../img/media_icon.png') -0.7rem 0 no-repeat;
+    background-size: cover;
+}
+.media a .media_rem .share {
+    width: 2rem;
+    float: right;
+    overflow: hidden;
+}
+.yema {
+    width: 100%;
+    height: auto;
+}
+.tea_tiaos {
+    height: 0.8rem;
+    padding-top: 0.15rem;
+}
+.tea_tiaos a {
+    float: left;
+    padding: 0.1rem;
+    height: 0.5rem;
+    border-radius: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.3rem;
+    margin-right: 0.15rem;
+}
+.tea_tiaos a:nth-child(1) {
+    width: 0.5rem;
+    margin-left: 0.3rem;
+    background: url('../img/s1 (1).png') 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_tiaos a:nth-child(2) {
+    width: 1.48rem;
+    background: url('../img/s2 (1).png') 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_tiaos a.a1 {
+    border: 1px solid #666;
+    letter-spacing: 1px;
+    color: #666;
+    width: 1.4rem;
+}
+.tea_tiaos a:nth-child(4) {
+    width: 1.48rem;
+    background: url('../img/s3 (1).png') 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_tiaos a:nth-child(5) {
+    width: 0.5rem;
+    background: url('../img/s4 (1).png') 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_copyright {
+    width: 100%;
+    height: 1.2rem;
+    font-size: 0.3rem;
+    overflow: hidden;
+}
+.tea_copyright p {
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    padding-top: 0.18rem;
+    box-sizing: border-box;
+}

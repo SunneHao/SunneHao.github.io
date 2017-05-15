@@ -1,0 +1,835 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="main">
+				<div class="topleft">
+					<a href="">ENGLISH</a>
+				</div>
+				<div class="topleft">
+					<a href="">政企客户</a>
+				</div>
+				<div class="topright">
+					<div class="dropdown">
+						<a class="t t3">登录</a>
+					</div>
+					<span>|</span>
+					<div class="dropdown">
+						<a class="t t1">手机营业厅</a>
+					</div>
+					<img src="images/new.gif" alt="" />
+					<span>|</span>
+					<a href="" class="t t2">积分商城</a>
+					<span>|</span>
+					<a href="" class="t t2">关于中国移动</a>
+					<span>|</span>
+					<a href="" class="t t2">联系我们</a>
+				</div>
+			</div>
+		</header>
+		<div class="header1">
+			<div style="float: left;"><img src="images/logo.png" alt="" /></div>
+			<div class="addSelect">
+				<span>太原</span>
+				<div class="sanjiao"></div>
+			</div>
+			<div class="right1">
+				<input type="text" class="ssk" placeholder="包月流量包" />
+				<input type="button" class="btnss" value="搜索" />
+				<div class="keyWords">
+					<a href="" class="t4">停复机</a>&nbsp;&nbsp;
+					<a href="">选号入网</a>&nbsp;&nbsp;
+					<a href="" class="t4">家庭网</a>&nbsp;&nbsp;
+					<a href="">宽带</a>&nbsp;&nbsp;
+					<a href="" class="t4">通话记录查询</a>&nbsp;&nbsp;
+					<a href="">彩铃</a>&nbsp;&nbsp;
+				</div>
+			</div>
+		</div>
+		<nav>
+			<a href="">
+				<div class="index">首页</div>
+			</a>
+			<div class="menu">
+				<a href="">移动商城</a>
+				<div class="menu1">
+					<div class="menu1T">
+						<a href="">买手机</a>
+					</div>
+					<div class="menu1T">
+						<a href="">办套餐</a>
+					</div>
+					<div class="menu1T">
+						<a href="">办业务</a>
+					</div>
+					<div class="menu1T">
+						<a href="">挑配件</a>
+					</div>
+					<div class="menu1T">
+						<a href="">立即充值</a>
+					</div>
+					<div class="menu1T">
+						<a href="">个人中心</a>
+					</div>
+					<div class="arrowtop arrowtop1"></div>
+				</div>
+			</div>
+			<div class="menu">
+				<a href="">我的移动</a>
+				<div class="menu1">
+					<div class="menu1T">
+						<a href="">我的账户</a>
+					</div>
+					<div class="menu1T">
+						<a href="">套餐余额查询</a>
+					</div>
+					<div class="menu1T">
+						<a href="">业务状态查询</a>
+					</div>
+					<div class="menu1T">
+						<a href="">订单查询</a>
+					</div>
+					<div class="menu1T">
+						<a href="">账单查询</a>
+					</div>
+					<div class="menu1T">
+						<a href="">积分查询</a>
+					</div>
+					<div class="menu1T">
+						<a href="">星级查询</a>
+					</div>
+					<div class="arrowtop arrowtop2"></div>
+				</div>
+			</div>
+			<div class="menu">
+				<a href="">网上营业厅</a>
+				<div class="menu1">
+					<div class="menu1T">
+						<a href="">网上充值</a>
+					</div>
+					<div class="menu1T">
+						<a href="">话费服务</a>
+					</div>
+					<div class="menu1T">
+						<a href="">资费套餐</a>
+					</div>
+					<div class="menu1T">
+						<a href="">选号入网</a>
+					</div>
+					<div class="menu1T">
+						<a href="">优惠购机</a>
+					</div>
+					<div class="menu1T">
+						<a href="">业务办理</a>
+					</div>
+					<div class="menu1T">
+						<a href="">优惠促销</a>
+					</div>
+					<div class="arrowtop arrowtop3"></div>
+				</div>
+			</div>
+			<div class="menu">
+				<a href="">服务与支持</a>
+				<div class="menu1">
+					<div class="menu1T">
+						<a href="">产品</a>
+					</div>
+					<div class="menu1T">
+						<a href="">资费专区</a>
+					</div>
+					<div class="menu1T">
+						<a href="">宽带专区</a>
+					</div>
+					<div class="menu1T">
+						<a href="">国际/港澳台</a>
+					</div>
+					<div class="menu1T">
+						<a href="">星级服务</a>
+					</div>
+					<div class="menu1T">
+						<a href="">手机营业厅</a>
+					</div>
+					<div class="menu1T">
+						<a href="">大数据应用</a>
+					</div>
+					<div class="arrowtop arrowtop4"></div>
+				</div>
+			</div>
+
+		</nav>
+		<script type="text/javascript">
+			var menus = document.querySelectorAll(".menu");
+			var menu1s = document.querySelectorAll(".menu1");
+			Array.from(menus).forEach(function(menu, index) {
+				menu.onmouseover = function() {
+					menu1s[index].style.display = "block";
+				}
+				menu.onmouseout = function() {
+					menu1s[index].style.display = "none";
+				}
+			})
+		</script>
+		<div class="shop">
+			<div class="shopclass">
+				<h1>
+					<a href="">直达移动商城</a>
+				</h1>
+				<ul>
+					<li><img src="images/shopclass01.gif">
+						<a href="" target="_blank">买手机</a>
+					</li>
+					<li><img src="images/shopclass02.gif">
+						<a href="">办套餐</a>
+					</li>
+					<li><img src="images/shopclass03.gif">
+						<a href="">办业务</a>
+					</li>
+					<li><img src="images/shopclass05.gif">
+						<a href="">挑配件</a>
+					</li>
+					<li><img src="images/kdzq2.png">
+						<a href="">家庭业务</a>
+					</li>
+					<li><img src="images/grzx.jpg">
+						<a href="">个人中心</a>
+					</li>
+				</ul>
+			</div>
+			<div class="banner">
+				<div class="lbnext"></div>
+				<div class="lbpre"></div>
+				<ul class="btnBanner">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+
+				</ul>
+				<div class="inner">
+					<ul class="bannerBox">
+						<li><img src="images/20170410171453800NHs.jpg" alt="" /></li>
+						<li><img src="images/201703271226572524wz.jpg" alt="" /></li>
+						<li><img src="images/20170411152302938d3l.jpg" alt="" /></li>
+						<li><img src="images/20170331102602646hxT.jpg" alt="" /></li>
+						<li><img src="images/20170417175043936onK.jpg" alt="" /></li>
+						<li><img src="images/2017033110175240263b.jpg" alt="" /></li>
+						<li><img src="images/20170414163033301k3y.jpg" alt="" /></li>
+						<li><img src="images/20170410171453800NHs.jpg" alt="" /></li>
+					</ul>
+				</div>
+			</div>
+			<script type="text/javascript">
+				var inner = document.querySelector(".inner");
+				var banner = document.querySelector(".banner");
+				var btnylbnext = document.querySelector(".lbpre");
+				var btnylbpre = document.querySelector(".lbnext");
+				var btnBanners = document.querySelectorAll(".btnBanner li");
+				var num2 = 0;
+				var btnNow = btnBanners[0];
+				var btnlbnext = document.querySelector(".lbnext");
+				var btnlbpre = document.querySelector(".lbpre");
+
+				function move2() {
+					if(num2 == 0) {
+						inner.style.transition = "all 1s";
+					}
+					num2++;
+					if(num2 == -2) {
+						num2 = 7;
+					}
+					if(num2 == 8) {
+						num2 = 0;
+					}
+					btnNow.style.background = "#ccc";
+					if(num2 == 7) {
+						btnBanners[0].style.background = "#E40077";
+						btnNow = btnBanners[0];
+					} else {
+						btnBanners[num2].style.background = "#E40077";
+						btnNow = btnBanners[num2];
+					}
+
+					inner.style.left = -740 * num2 + "px";
+				}
+
+				var t1 = setInterval(move2, 2000);
+				banner.onmouseover = function() {
+					clearInterval(t1);
+				};
+				banner.onmouseout = function() {
+					t1 = setInterval(move2, 2000);
+				};
+				Array.from(btnBanners).forEach(function(btn, index) {
+					btn.onclick = function() {
+						num2 = index;
+						inner.style.left = -740 * num2 + "px";
+						btnNow.style.background = "#ccc";
+						if(index == 7) {
+							btnBanners[0].style.background = "#E40077";
+							btnNow = btnBanners[0];
+						} else {
+							btnBanners[index].style.background = "#E40077";
+							btnNow = btnBanners[index];
+						}
+					}
+				})
+
+				inner.addEventListener("transitionend", function() {
+					if(num2 == 7) {
+						inner.style.transition = "none";
+						inner.style.left = 0;
+						num2 = 0;
+					}
+				});
+
+				btnlbnext.onclick = function() {
+					num2 -= 2;
+					move2();
+				}
+				btnlbpre.onclick = function() {
+					move2();
+				}
+			</script>
+			<div class="quickbtn">
+				<div class="btns">
+					<ul>
+						<a href="">
+							<li>
+								<img src="images/20160323161008732O2n.gif" alt="" class="btnsLogo" />
+								<div class="btnst">话费查询</div>
+							</li>
+						</a>
+						<a href="">
+							<li>
+								<img src="images/20160323161051270xTE.gif" alt="" class="btnsLogo" />
+								<div class="btnst">流量查询</div>
+							</li>
+						</a>
+						<a href="">
+							<li>
+								<img src="images/201609271120403994p0.png" alt="" class="btnsLogo" />
+								<div class="btnst">国际/港澳台</div>
+							</li>
+						</a>
+						<a href="">
+							<li>
+								<img src="images/20160323161119374xjY.gif" alt="" class="btnsLogo" />
+								<div class="btnst">积分兑换</div>
+							</li>
+						</a>
+						<a href="">
+							<li>
+								<img src="images/201603231611338666cs.gif" alt="" class="btnsLogo" />
+								<div class="btnst">优惠促销</div>
+							</li>
+						</a>
+						<a href="">
+							<li>
+								<img src="images/20160630153211161H1w.gif" alt="" class="btnsLogo" />
+								<div class="btnst">选号入网</div>
+							</li>
+						</a>
+					</ul>
+				</div>
+				<form action="" method="post">
+					<div class="chongzhi">
+						<div class="czjf">
+							<a href="">充值交费</a> <span>9.95折</span>
+						</div>
+						<input type="text" class="ins" placeholder="请输入手机号" />
+						<div class="czxz">
+							<div class="choose">5元</div>
+							<div class="choose choosed">100元</div>
+							<div class="choose">300元</div>
+							<div class="choose">500元</div>
+							<div class="choose">其他</div>
+						</div>
+					</div>
+					<input type="submit" value="立即充值" class="ljzf" />
+				</form>
+			</div>
+		</div>
+
+		<!--优惠促销-->
+		<div class="yhcx">
+			<div class="yhnext" style="display: block;"></div>
+			<div class="yhpre" style="display: block;"></div>
+			<div class="inneryhcx">
+
+				<div class="inner1">
+					<div class="indexbox">
+						<a href="">
+							<h1>4G套餐</h1>
+							<h2>加量不加价</h2>
+							<img src="images/20150803153231481OjF.jpg" alt="" />
+						</a>
+					</div>
+					<div class="indexbox">
+						<a href="">
+							<h1>话费充值9.95</h1>
+							<h2>周三充值更优惠</h2>
+							<img src="images/20170213151035410d6d.jpg" alt="" />
+						</a>
+					</div>
+					<div class="indexbox">
+						<a href="">
+							<h1>两城一家</h1>
+							<h2>两种城市 一种价格</h2>
+							<img src="images/20170213150948408A5O.jpg" alt="" />
+						</a>
+					</div>
+					<div class="indexbox">
+						<a href="">
+							<h1>WLAN套餐</h1>
+							<h2>自由无限 随心畅想</h2>
+							<img src="images/20170213151124565anb.jpg" alt="" />
+						</a>
+					</div>
+					<div class="indexbox">
+						<a href="">
+							<h1>4G手机 低价购</h1>
+							<h2>合约套餐 任您挑选</h2>
+							<img src="images/20160328163345169aci.jpg" alt="" />
+						</a>
+					</div>
+					<div class="indexbox">
+						<a href="">
+							<h1>手机营业厅</h1>
+							<h2>推荐好友每月最高可获600M流量</h2>
+							<img src="images/20150803153231481OjF.jpg" alt="" />
+						</a>
+					</div>
+					<div class="indexbox">
+						<a href="">
+							<h1>宽带预约</h1>
+							<h2>足不出户办宽带</h2>
+							<img src="images/20160328164006722zix.jpg" alt="" />
+						</a>
+					</div>
+					<div class="indexbox">
+						<a href="">
+							<h1>流量放心包</h1>
+							<h2>免费开通 流量放心用</h2>
+							<img src="images/201608241209313375Hx.jpg" alt="" />
+						</a>
+					</div>
+					<div class="indexbox">
+						<a href="">
+							<h1>4G套餐</h1>
+							<h2>加量不加价</h2>
+							<img src="images/20150803153231481OjF.jpg" alt="" />
+						</a>
+					</div>
+					<div class="indexbox">
+						<a href="">
+							<h1>话费充值9.95</h1>
+							<h2>周三充值更优惠</h2>
+							<img src="images/20170213151035410d6d.jpg" alt="" />
+						</a>
+					</div>
+					<div class="indexbox">
+						<a href="">
+							<h1>两城一家</h1>
+							<h2>两种城市 一种价格</h2>
+							<img src="images/20170213150948408A5O.jpg" alt="" />
+						</a>
+					</div>
+					<div class="indexbox">
+						<a href="">
+							<h1>WLAN套餐</h1>
+							<h2>自由无限 随心畅想</h2>
+							<img src="images/20170213151124565anb.jpg" alt="" />
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var inner1 = document.querySelector(".inner1");
+			var yhcx = document.querySelector(".yhcx");
+			var btnyhnext = document.querySelector(".yhnext");
+			var btnyhpre = document.querySelector(".yhpre");
+			var num1 = 0;
+
+			function move1() {
+				if(num1 == 0) {
+					inner1.style.transition = "all 1s";
+				}
+				num1++;
+				if(num1 < 0) {
+					num1 = 7;
+					//					inner1.style.transition = "all 1s";
+				}
+				if(num1 == 9) {
+					num1 = 0;
+				}
+
+				inner1.style.left = -295 * num1 + "px";
+			}
+			var t = setInterval(move1, 2000);
+			yhcx.onmouseover = function() {
+				clearInterval(t);
+			};
+			yhcx.onmouseout = function() {
+				t = setInterval(move1, 2000);
+			};
+
+			inner1.addEventListener("transitionend", function() {
+				if(num1 == 8) {
+					inner1.style.transition = "none";
+					inner1.style.left = 0;
+					num1 = 0;
+				}
+			});
+
+			btnyhnext.onclick = function() {
+				num1 -= 2;
+				move1();
+			}
+			btnyhpre.onclick = function() {
+				move1();
+			}
+		</script>
+		<!--4g专区-->
+		<div class="sgzq">
+			<div class="sgzqtitle">
+				<span>4G专区</span>
+				<a href="">查看更多&gt;</a>
+			</div>
+			<div class="sgzqContent">
+				<div class="left">
+					<a href=""><img src="images/20160517132707556e41.jpg" alt="" style="height: 100%;" /></a>
+				</div>
+				<div class="right">
+					<div class="right1 borderB" style="background: white;">
+						<a href="">
+							<h1>4G上网套餐</h1>
+							<h2>让您体验更快的上网速度</h2>
+							<img src="images/201508031620237462GV.jpg" alt="" class="" />
+						</a>
+					</div>
+					<div class="right1 borderB bggray">
+						<a href="">
+							<h1 style="color: rgb(228, 0, 119);">4G套餐</h1>
+							<h2>加速加量不加价</h2>
+							<img src="images/201605171558380616MA.jpg" alt="" class="" />
+						</a>
+					</div>
+					<div class="right1 borderB">
+						<a href="">
+							<h1>4G飞享套餐</h1>
+							<h2>精心搭配  方便选择</h2>
+							<img src="images/20150803162344100wTp.jpg" alt="" class="" />
+						</a>
+					</div>
+					<div class="right1 bggray">
+						<a href="">
+							<h1 style="color: rgb(228, 0, 119);">高清语音（VoLTE）</h1>
+							<h2>低延时，高品质，通话上网两不误</h2>
+							<img src="images/20160518163725923nJH.jpg" alt="" class="" />
+						</a>
+					</div>
+					<div class="right1">
+						<a href="">
+							<h1>4G自选套餐</h1>
+							<h2>自由搭配套餐 实惠更多</h2>
+							<img src="images/20150803163113726kdw.jpg" alt="" class="" />
+						</a>
+					</div>
+					<div class="right1 bggray">
+						<a href="">
+							<h1 style="color: rgb(228, 0, 119);">4G手机</h1>
+							<h2>4G手机　品牌、厂家手机优惠大汇</h2>
+							<img src="images/20160517154449126YLK.jpg" alt="" class="" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--买手机-->
+		<div class="sgzq">
+			<div class="sgzqtitle">
+				<span>买手机</span>
+				<a href="">查看更多&gt;</a>
+			</div>
+			<div class="sgzqContent">
+
+				<div class="left">
+					<a href="">
+						<div class="title1">魅族魅蓝5</div>
+						<div class="title2">正面指纹识别</div>
+						<p>￥699</p>
+						<img src="images/20161226154735353du5.jpg" alt="" class="shouji" />
+					</a>
+				</div>
+				<div class="left" style="border-left: 1px solid #dfdfdf;">
+					<a href="">
+						<div class="title1">华为-G9青春版</div>
+						<div class="title2">高光C角 指纹识别 高铁模式</div>
+						<p>已售磐</p>
+						<img src="images/20170123104730209FwN.jpg" alt="" class="shouji" />
+					</a>
+				</div>
+				<div class="left" style="border-left: 1px solid #dfdfdf;">
+					<a href="">
+						<div class="title1">魅蓝 NOTE5</div>
+						<div class="title2">快速充电 金属指纹大运存</div>
+						<p>已售磐</p>
+						<img src="images/20170123110341999Tcr.jpg" alt="" class="shouji" />
+					</a>
+				</div>
+				<div class="left" style="border-left: 1px solid #dfdfdf;">
+					<a href="">
+						<div class="title1">中国移动(M836)N2</div>
+						<div class="title2">金属机身 指纹解锁</div>
+						<p>已售磐</p>
+						<img src="images/20170123111144768fwq.jpg" alt="" class="shouji" />
+					</a>
+				</div>
+
+			</div>
+		</div>
+
+		<!--业务推荐-->
+		<div class="sgzq">
+			<div class="sgzqtitle">
+				<span>业务推荐</span>
+				<a href="">查看更多&gt;</a>
+			</div>
+			<div class="sgzqContent">
+				<div class="left">
+					<a href=""><img src="images/20150803150330475Scu.jpg" alt="" style="height: 100%;" /></a>
+				</div>
+				<div class="right">
+					<div class="right1 borderB">
+						<a href="">
+							<h1>两城一家</h1>
+							<h2>两城一家 为你省到家</h2>
+							<img src="images/20151124143631694xp4.jpg" alt="" class="" />
+						</a>
+					</div>
+					<div class="right1 borderB">
+						<a href="">
+							<h1>流量放心包</h1>
+							<h2>随心浏览 放心上网</h2>
+							<img src="images/20151124153807578Eoq.jpg" alt="" class="" />
+						</a>
+					</div>
+					<div class="right1 borderB">
+						<a href="">
+							<h1>家庭网</h1>
+							<h2>家庭沟通专享 亲情欢乐随行</h2>
+							<img src="images/201508031516432745a5.jpg" alt="" class="" />
+						</a>
+					</div>
+					<div class="right1 ">
+						<a href=" ">
+							<h1>手机报</h1>
+							<h2>让您轻松了解最新动态 实惠更多</h2>
+							<img src="images/20150803152021468c1Y.jpg" alt=" " class=" " />
+						</a>
+					</div>
+					<div class="right1 ">
+						<a href=" ">
+							<h1>季年流量包</h1>
+							<h2>季年流量特惠 上网巨优惠</h2>
+							<img src="images/20150803152953864xK1.jpg" alt=" " class=" " />
+						</a>
+					</div>
+					<div class="right1 ">
+						<a href=" ">
+							<h1>包月流量包</h1>
+							<h2>流量费用双封顶 用的安心</h2>
+							<img src="images/20150803153231481OjF.jpg" alt=" " class=" " />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--公告-->
+		<div class="sgzq">
+			<div class="sgzqtitle">
+				<div class="gonggao">公告：</div>
+				<ul class="gonggao1">
+					<li><span>—</span>
+						<a href="">关于家长宝典业务下线公告</a>
+						<p>2017-04-10</span>
+						</p>
+					</li>
+					<li><span>—</span>
+						<a href="">关于家长宝典业务下线公告</a>
+						<p>2017-04-10</span>
+						</p>
+					</li>
+					<li><span>—</span>
+						<a href="">关于家长宝典业务下线公告</a>
+						<p>2017-04-10</span>
+						</p>
+					</li>
+				</ul>
+				<div class="btnGg">
+					<a href="">&gt;</a>
+					<a href="">&lt;</a>
+				</div>
+			</div>
+		</div>
+		<!--辅助需求导航区-->
+		<div class="dbfw">
+			<ul>
+				<li><b>服务渠道</b></li>
+				<li>
+					<a href="">自助终端</a>
+				</li>
+				<li>
+					<a href="">10086热线</a>
+				</li>
+				<li>
+					<a href="">实体营业厅</a>
+				</li>
+				<li>
+					<a href="">短信营业厅</a>
+				</li>
+				<li>
+					<a href="">网上营业厅</a>
+				</li>
+				<li>
+					<a href="">掌上/ 手机营业厅</a>
+				</li>
+			</ul>
+			<ul>
+				<li><b>站点导航</b></li>
+				<li>
+					<a href="">MM</a>
+				</li>
+				<li>
+					<a href="">飞信</a>
+				</li>
+				<li>
+					<a href="">和包</a>
+				</li>
+				<li>
+					<a href="">咪咕阅读</a>
+				</li>
+				<li>
+					<a href="">139邮箱</a>
+				</li>
+				<li>
+					<a href="">咪咕音乐</a>
+				</li>
+			</ul>
+			<ul>
+				<li><b>快捷服务</b></li>
+				<li>
+					<a href="">套餐变更</a>
+				</li>
+				<li>
+					<a href="">充值中心</a>
+				</li>
+				<li>
+					<a href="">话费查询</a>
+				</li>
+				<li>
+					<a href="">套餐余量</a>
+				</li>
+				<li>
+					<a href="">账单查询</a>
+				</li>
+				<li>
+					<a href="">星级查询</a>
+				</li>
+			</ul>
+			<ul>
+				<li><b>常见问题</b></li>
+				<li>
+					<a href="">忘记密码怎么办</a>
+				</li>
+				<li>
+					<a href="">话费余额查询</a>
+				</li>
+				<li>
+					<a href="">通过网银如何缴费</a>
+				</li>
+				<li>
+					<a href="">如何查询我的积分</a>
+				</li>
+				<li>
+					<a href="">密码如何修改</a>
+				</li>
+				<li>
+					<a href="">充值卡如何使用</a>
+				</li>
+			</ul>
+			<ul>
+				<li><b>商城服务指南</b></li>
+				<li>
+					<a href="">购物指南</a>
+				</li>
+				<li>
+					<a href="">付款方式</a>
+				</li>
+				<li>
+					<a href="">物流配送</a>
+				</li>
+				<li>
+					<a href="">售后服务</a>
+				</li>
+				<li>
+					<a href="">个人中心</a>
+				</li>
+			</ul>
+		</div>
+		<!--底部-->
+		<footer>
+			<div>
+				<a href="">新闻中心</a>
+				<span>|</span>
+				<a href="">诚聘英才</a><span>|</span>
+				<a href="">采购信息</a> <span>|</span>
+				<a href="">企业合作</a> <span>|</span>
+				<a href="">站点导航</a> <span>|</span>
+				<a href="">中国移动研究院</a> <span>|</span>
+				<a href="">中国移动设计院</a> <span>|</span>
+				<a href="">中国移动香港公司</a> <span>|</span>
+				<a href="">网站地图</a> <span>|</span>
+				<a href="">友情链接</a>
+			</div>
+			<div id="">
+				掌上营业厅：wap.10086.cn 语音自助服务：10086 短信营业厅：10086
+				<a href="">自助终端</a>
+				<a href="">营业厅</a>
+				<a href="">手机营业厅下载</a>
+			</div>
+			<div>Copyright©1999-2017 中国移动 版权所有</div>
+			<div>中华人民共和国增值电信业务经营许可证 经营许可证编号：A2.B1.B2-20100001</div>
+			<div style="height: 48px;position: relative;margin-bottom: 20px;">
+				<div style="width: 50%;float: left;">
+					<img src="images/knetSealLogo.png" alt="" style="float: right;" />
+				</div>
+				<div class="gov">
+					<a href="">京ICP备05002571号</a>
+				</div>
+
+			</div>
+		</footer>
+		<!--右侧悬浮-->
+		<div class="floatRight">
+			<img src="images/kf.gif" style="float: right;" />
+			<div class="zxzx zxzx0"><img src="images/zxzx.gif" alt="" /></div>
+			<div class="zxzx zxzx1"><img src="images/cjwt.gif" alt="" /></div>
+			<div class="zxzx zxzx2"><img src="images/tsjy.gif" alt="" /></div>
+		</div>
+	</body>
+
+</html>

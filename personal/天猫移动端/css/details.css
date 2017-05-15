@@ -1,0 +1,142 @@
+.head{
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	background: #fff;
+}
+.head1{
+	width: 33.33333%;
+	height: 0.82rem;
+	float: left;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.82rem;
+	color: red;
+	border-right: 0.02rem solid #ccc;
+}
+.head2{
+	width: 33.33333%;
+	height: 0.82rem;
+	float: left;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.82rem;
+	color: red;
+	border-top: 0.02rem solid red;
+	border-right: 0.02rem solid #ccc;
+}
+.head3{
+	width: 33.33333%;
+	height: 0.82rem;
+	float: left;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.82rem;
+	color: red;
+}
+.head-zhong{
+	width: 100%;
+	height: 0.88rem;
+	position: fixed;
+	top: 0.8rem;
+}
+.t1{
+	width: 100%;
+	height: 100%;
+}
+.banner{
+	width: 100%;
+	overflow: hidden;
+}
+.banner1{
+	width: 100%;
+	height: 7.5rem;
+	float: left;
+}
+.title{
+	width: 100%;
+	height: 0.96rem;
+	background: #F4F4F4;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.96rem;
+	color: #646A6C;
+	margin-top: 1.7rem;
+}
+.tiao{
+	width: 100%;
+	height: 0.22rem;
+	background: #EEEEEE;
+}
+.dianpu{
+	width: 100%;
+	height: 0.8rem;
+	font-size: 0.28rem;
+	color: #646A6C;
+	line-height: 0.8rem;
+	margin-left: 0.3rem; 
+}
+.content{
+	width: 100%;
+	overflow: hidden;
+}
+.t2{
+	width: 100%;
+	height: 3.56rem;
+}
+.content1{
+	width: 100%;
+	overflow: hidden;
+	background: #F4F4F4; 
+}
+.tudian{
+	width: 30.3333%;
+	overflow: hidden;
+	float: left;
+	margin-right: 0.33rem;
+}
+.tudian2{
+	width: 30.3333%;
+	overflow: hidden;
+	float: left;
+}
+.tudian1{
+	width: 2.46rem;
+	height: 2.46rem;
+}
+.t3{
+	width: 100%;
+	height: 100%;
+}
+.introduce{
+	width: 2.46rem;
+	height: 0.84rem;
+	font-size: 0.3rem;
+	color: #646A6C;
+	margin-top: 0.1rem;
+}
+.price{
+	width: 2.46rem;
+	height: 0.64rem;
+	font-size: 0.3rem;
+	color: red;
+	line-height: 0.64rem;
+	margin-left: 0.1rem;
+}
+.content2{
+	width: 100%;
+	overflow: hidden;
+}
+.chicun{
+	width: 100%;
+	height: 100%;
+}
+.content3{
+	width: 100%;
+	overflow: hidden;
+}
+.picture{
+	width: 100%;
+	height: 100%;
+}

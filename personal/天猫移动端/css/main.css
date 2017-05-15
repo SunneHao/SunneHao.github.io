@@ -1,0 +1,862 @@
+.head{
+	width: 100%;
+	height:3.66rem;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+.head img{
+	width:100%;
+	height: 100%;
+	float: left; 
+}
+.head-top{
+	width: 100%;
+	height: 0.9rem;
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0.7),rgba(0,0,0,0.0));
+	position: fixed;
+	top: 0;
+}
+.head-top .hanbao{
+	width: 0.5rem;
+	height: 0.7rem;
+	float: left;
+	margin-left:0.4rem; 
+	margin-top: 0.2rem;
+}
+.ssk{
+	width: 5.08rem;
+	height: 0.66rem;
+	margin-top: 10px;
+	margin-left: 16px;
+	border: 0.02rem solid #000;
+	background: #E5E5E5;
+	float: left;
+}
+.ss{
+	width: 4.5rem;
+	height: 0.6rem;
+	background: #E5E5E5;
+	float: left;
+	padding: 0 0.3rem;
+}
+.head-top .icon{
+	width: 0.5rem;
+	height: 0.6rem;
+	float: left;
+}
+.head-top span{
+	font-size: 16px;
+	color: #E5E5E5;
+	float: left;
+	margin-top: 0.3rem;
+	margin-left: 0.3rem;
+}
+.lunbo{
+	width: 3rem;
+	height: 0.28rem;
+	position: absolute;
+	bottom: 5px;
+	left: 120px;
+}
+.dian{
+	width: 0.14rem;
+	height: 0.14rem;
+	background:#999;
+	float: left;
+	margin-left: 0.1rem;
+	border-radius:50%; 
+}
+.dian1{
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #fff;
+	float: left;
+	margin-left: 0.1rem;
+	border-radius:50%; 
+}
+.content{
+	width: 100%;
+	height: 2.68rem;
+	background: red;
+	float: left;
+}
+.content .low li {
+	width: 1.5rem;
+	height: 1.42rem;
+	float: left;
+	background: #fff;
+	font-size: 0.24rem;
+	text-align: center;
+}
+.content .low1 li{
+	width: 1.5rem;
+	height: 1.42rem;
+	float: left;
+	background: #fff;
+	font-size: 0.24rem;
+	text-align: center;
+}
+.tu{
+	width: 0.72rem;
+	height: 0.72rem;
+	margin-top: 0.16rem;
+	margin-left: 0.36rem;
+	margin-bottom: 0.1rem;
+	display: block;
+}
+.content1{
+	width: 100%;
+	height: 1.2rem;
+	overflow: hidden;
+}
+.tmall2{
+	font-size: 0.24rem;
+	float:right;
+	margin-top: 0.24rem;
+	margin-right: 1.2rem;
+}
+.tmall3{
+	font-size: 0.24rem;
+	float:right;
+	margin-top: -0.7rem;
+	margin-right: 1.56rem;
+	color: red;
+}
+.content2{
+	width: 100%;
+	height: 2.22rem;
+	background: #F0F0F0;
+}
+.tu3{
+	width: 3.52rem;
+	height: 2.18rem;
+	border: 0.06rem solid #f0f0f0;
+	float: left;
+}
+.zuohua{
+	width: 0.24rem;
+	height: 2rem;
+	float: right;
+	font-size: 0.24rem;
+	margin-right: 0.2rem;
+}
+.qiang{
+	width: 100%;
+	height: 0.56rem;
+	position: relative;
+	background: #F0F0F0;
+}
+.tiao{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 2.2rem;
+}
+.tu4{
+	position: absolute;
+	left: 3rem;
+}
+.tiao1{
+	font-size: 0.32rem;
+	float: left;
+	position: absolute;
+	top: 0.1rem;
+	left: 3.5rem;
+}
+.tiao2{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 4.3rem;
+}
+.qiang1{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.qiang1-1{
+	width: 1.875rem;
+	height: 2.735rem;
+	float: left;
+}
+.title{
+	font-size: 0.32rem;
+	float: left;
+	margin-left: 0.4rem;
+	margin-top: 0.2rem;
+
+}
+.qiang1-11{
+	width: 1.575rem;
+	height: 1.575rem;
+	margin: 0 auto;
+	margin-top: 0.6rem;
+}
+.tu5{
+	width: 100%;
+	height: 100%;
+}
+.price{
+	font-size: 0.24rem;
+	color: red;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.3rem;
+}
+.price1{
+	font-size: 0.24rem;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.1rem;
+}
+.chao{
+	width: 100%;
+	height: 0.56rem;
+	position: relative;
+	background: #F0F0F0;
+	float: left;
+}
+.tiao3{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 2rem;
+}
+.tu6{
+	position: absolute;
+	left: 2.8rem;
+	width: 0.256rem;
+	height: 0.3rem;
+	margin-top: 0.18rem;
+}
+.tiao4{
+	font-size: 0.32rem;
+	float: left;
+	position: absolute;
+	top: 0.1rem;
+	left: 3.2rem;
+}
+.tiao5{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 4.6rem;
+}
+.chao1{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.chao1-1{
+	width: 2.5rem;
+	height: 3.05rem;
+	float: left;
+}
+.tu7{
+	width: 100%;
+	height: 100%;
+}
+.pingpai{
+	width: 100%;
+	height: 0.56rem;
+	position: relative;
+	background: #F0F0F0;
+	float: left;
+}
+.tiao6{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 2rem;
+}
+.tu8{
+	position: absolute;
+	left: 2.8rem;
+	width: 0.256rem;
+	height: 0.3rem;
+	margin-top: 0.18rem;
+}
+.tiao7{
+	font-size: 0.32rem;
+	float: left;
+	color: #FFC896;
+	position: absolute;
+	top: 0.1rem;
+	left: 3.2rem;
+}
+.tiao8{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 4.6rem;
+}
+.pingpai{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.pingpai1-1{
+	width: 3.75rem;
+	height: 2.0256rem;
+	float: left;
+}
+.tu9{
+	width: 100%;
+	height: 100%;
+}
+.zixun{
+	width: 100%;
+	height: 0.56rem;
+	position: relative;
+	background: #F0F0F0;
+	float: left;
+}
+.tiao9{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 2rem;
+}
+.tu10{
+	position: absolute;
+	left: 2.8rem;
+	width: 0.256rem;
+	height: 0.3rem;
+	margin-top: 0.18rem;
+}
+.tiao10{
+	font-size: 0.32rem;
+	float: left;
+	color: #7CCDBF;
+	position: absolute;
+	top: 0.1rem;
+	left: 3.2rem;
+}
+.tiao11{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 4.6rem;
+}
+.zixun1{
+	width:100%;
+	overflow: hidden;
+	float: left;
+}
+.zixun1-1{
+	width: 2.5rem;
+	height: 3.5078rem;
+	float: left;
+}
+.tu1-1{
+	width: 100%;
+	height: 100%;
+}
+.interval{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.tu1-2{
+	width: 100%;
+	height: 1.865rem;
+	float: left;
+}
+.life{
+	width: 100%;
+	height: 0.56rem;
+	position: relative;
+	background: #F0F0F0;
+	float: left;
+}
+.tiao12{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 2rem;
+}
+.tu11{
+	position: absolute;
+	left: 2.8rem;
+	width: 0.256rem;
+	height: 0.3rem;
+	margin-top: 0.18rem;
+}
+.tiao13{
+	font-size: 0.32rem;
+	float: left;
+	color: #9DCE6C;
+	position: absolute;
+	top: 0.1rem;
+	left: 3.2rem;
+}
+.tiao14{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 4.6rem;
+}
+.life1{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.life1-1{
+	width: 3.315rem;
+	height: 2.9178rem;
+	float: left;
+}
+.life1-2{
+	width: 4.165rem;
+	height: 1.4616rem;
+	float: left;
+}
+.tu1-2{
+	width: 100%;
+	height: 100%;
+}
+.international{
+	width: 100%;
+	height: 0.56rem;
+	position: relative;
+	background: #F0F0F0;
+	float: left;
+}
+.tiao15{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 2rem;
+}
+.tu12{
+	position: absolute;
+	left: 2.8rem;
+	width: 0.256rem;
+	height: 0.3rem;
+	margin-top: 0.18rem;
+}
+.tiao16{
+	font-size: 0.32rem;
+	float: left;
+	color: #8F50D6;
+	position: absolute;
+	top: 0.1rem;
+	left: 3.2rem;
+}
+.tiao17{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 4.6rem;
+}
+.international1{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.international1-1{
+	width: 2.5rem;
+	height: 2.9634rem;
+	float: left;
+}
+.tu1-4{
+	width: 100%;
+	height: 100%;
+}
+.market{
+	width: 100%;
+	height: 0.56rem;
+	position: relative;
+	background: #F0F0F0;
+	float: left;
+}
+.tiao18{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 2rem;
+}
+.tu13{
+	position: absolute;
+	left: 2.8rem;
+	width: 0.256rem;
+	height: 0.3rem;
+	margin-top: 0.18rem;
+}
+.tiao19{
+	font-size: 0.32rem;
+	float: left;
+	color: #8F50D6;
+	position: absolute;
+	top: 0.1rem;
+	left: 3.2rem;
+}
+.tiao20{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 4.6rem;
+}
+.market1{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.market1-1{
+	width: 1.865rem;
+	height: 2.599rem;
+	float: left;
+}
+.market1-2{
+	width: 3.74rem;
+	height: 2.196rem;
+	float: left;
+}
+.tu1-5{
+	width: 100%;
+	height: 100%;
+}
+.tu1-6{
+	width: 100%;
+	height: 100%;
+}
+.love-life{
+	width: 100%;
+	height: 0.56rem;
+	position: relative;
+	background: #F0F0F0;
+	float: left;
+}
+.tiao21{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 2rem;
+}
+.tu14{
+	position: absolute;
+	left: 2.8rem;
+	width: 0.256rem;
+	height: 0.3rem;
+	margin-top: 0.18rem;
+}
+.tiao22{
+	font-size: 0.32rem;
+	float: left;
+	color: #33BFFE;
+	position: absolute;
+	top: 0.1rem;
+	left: 3.2rem;
+}
+.tiao23{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 4.6rem;
+}
+.love-life1{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.love-life1-1{
+	width:1.875rem;
+	height: 2.8126rem;
+	float: left;
+}
+.tu1-7{
+	width: 100%;
+	height: 100%;
+}
+.industry{
+	width: 100%;
+	height: 0.56rem;
+	position: relative;
+	background: #F0F0F0;
+	float: left;
+}
+.tiao24{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 2rem;
+}
+.tu15{
+	position: absolute;
+	left: 2.8rem;
+	width: 0.256rem;
+	height: 0.3rem;
+	margin-top: 0.18rem;
+}
+.tiao25{
+	font-size: 0.32rem;
+	float: left;
+	color: #BEC4EC;
+	position: absolute;
+	top: 0.1rem;
+	left: 3.2rem;
+}
+.tiao26{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 4.6rem;
+}
+.industry1{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.industry1-1{
+	width:50%; 
+	height:2.02rem;
+	float: left;
+}
+.interduse{
+	font-size: 16px;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+}
+.interduse1{
+	font-size: 14px;
+	float: left;
+	margin-left: -1.2rem;
+	margin-top: 0.7rem;
+}
+.industry1-2{
+	width: 1.865rem;
+	height:1.865rem;
+	float: right;
+}
+.tu1-8{
+	width: 100%;
+	height: 100%;
+}
+.industry2{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.tu1-9{
+	width: 100%;
+	height:5.14rem ;
+}
+.flagship{
+	width: 100%;
+	height: 0.56rem;
+	position: relative;
+	background: #F0F0F0;
+	float: left;
+}
+.tiao27{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 2rem;
+}
+.tu16{
+	position: absolute;
+	left: 2.8rem;
+	width: 0.256rem;
+	height: 0.3rem;
+	margin-top: 0.18rem;
+}
+.tiao28{
+	font-size: 0.32rem;
+	float: left;
+	color: #BEC4EC;
+	position: absolute;
+	top: 0.1rem;
+	left: 3.2rem;
+}
+.tiao29{
+	width: 0.68rem;
+	height: 0.02rem;
+	float: left;
+	background: #000;
+	position: absolute;
+	top: 0.3rem;
+	left: 4.6rem;
+}
+.flagship1{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.flagship2{
+	width: 50%;
+	height: 3.2rem;
+	float: left;
+}
+.flagship1-1{
+	width:2.4466rem;
+	height:2.4466rem;
+	float: left; 
+}
+.t1{
+	width: 100%;
+	height: 100%;
+}
+.flagship1-2{
+	width:1.2034rem;
+	height:1.2034rem;
+	float: left;
+}
+.t2{
+	width: 100%;
+	height: 100%;
+}
+.flagship1-3{
+	width: 3.67rem;
+	height: 0.6rem;
+	float: left;
+}
+.t3{
+	width: 0.48rem;
+	height: 0.48rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+}
+.name{
+	font-size: 0.24rem;
+	margin-top: 0.2rem;
+	margin-left: 0.1rem;
+	float: left;
+}
+.name1{
+	font-size: 0.24rem;
+	margin-left: 0.1rem;
+	float: left;
+}
+.like{
+	width: 100%;
+	height: 0.86rem;
+	float: left;
+	background: #F0F0F0;
+}
+.wenzi{
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.86rem;
+}
+.like1{
+	width: 50%;
+	height: 5.16rem;
+	float: left;
+}
+.like1-1{
+	width: 3.72rem;
+	height: 3.72rem;
+	float: left;
+}
+.t4{
+	width: 100%;
+	height: 100%;
+}
+.like1-2{
+	width: 3.72rem;
+	height: 1.44rem;
+	float: left;
+}
+.like1-2 ul .man{
+	font-size: 0.24rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+}
+.like1-2 ul .man1{
+	font-size: 0.24rem;
+	float: left;
+	color: red;
+	margin-top: 0.1rem;
+	margin-left: 0.2rem;
+}
+.foot{
+	width: 100%;
+	height: 0.8rem;
+	float: left;
+}
+.t8{
+	width: 100%;
+	height: 100%;
+}
+.foot-zhong{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	padding-left: 1rem;
+}
+.foot-zhong ul li{
+	font-size: 0.24rem;
+	float: left;
+	margin-top: 0.6rem;
+	margin-left: 11px;
+}
+.foot-bottom{
+	width: 100%;
+	height: 1rem;
+	float: left;
+	font-size: 0.24rem;
+	text-align: center;
+	padding-top: 0.8rem;
+}

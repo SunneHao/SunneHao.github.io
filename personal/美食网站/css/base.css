@@ -1,0 +1,20 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	transition:all 0.3s linear;
+	-webkit-transition:all 0.3s linear;
+	/* <!-- chrome/safari 浏览器 --> */
+	-moz-transition:all 0.3s linear;
+	/* <!-- 火狐浏览器 --> */
+	-o-transition:all 0.3s linear;
+	/* <!-- opear浏览器 --> */
+}
+a{
+	color: #ccc;
+	text-decoration: none;/* 取消A标签的下划线 */
+}
+
+

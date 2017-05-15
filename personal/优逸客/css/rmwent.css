@@ -1,0 +1,250 @@
+.banner{
+	width: 100%;
+	height: 4.2rem;
+	background-image: url('../img/banner1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden
+}
+
+header{
+    width: 100%;
+    height: 0.89rem;
+    background: #007BE3;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+}
+.box2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box2 li {
+    font-size: 0.32rem;
+    border-bottom: 0.04rem;
+    font-weight: bold;
+}
+.box2 li {
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.box2 li .lj {
+    font-size: 0.32rem;
+}
+.box2 li .lj {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 0.28rem;
+    line-height: 1rem;
+    border: none;
+    text-align: center;
+}
+.content {
+    width: 100%;
+    padding: 0.1rem 0.24rem 0;
+    box-sizing: border-box;
+}
+.content .mulu {
+    height: 0.62rem;
+    line-height: 0.62rem;
+    width: 100%;
+}
+.content .mulu a {
+    color: #494747;
+    font-size: 0.22rem;
+    line-height: 0.7rem;
+    float: left;
+    margin: 0 0.14rem;
+    font-weight: bold;
+}
+.content .mulu span {
+    float: left;
+    width: 0.16rem;
+    height: 0.2rem;
+    margin-top: 0.26rem;
+    font-size: 0.22rem;
+    text-align: center;
+    color: #494747;
+    background-size: 100%;
+    background: url('../img/jiantou.png') center center no-repeat;
+    overflow: hidden;
+}
+.content .mulu a:nth-child(1) {
+    margin-left: 0;
+}
+.tea-content{
+	width: 100%;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+    padding: 0.1rem 0.24rem 0;
+}
+.tab{
+	width: 100%;
+    height: 0.8rem;
+    border: 1px solid #01b5ff;
+    border-radius: 0.07rem;
+    box-sizing: border-box;
+    margin-bottom: 0.2rem;
+}
+.active {
+    background-color: #01b5ff;
+    border-radius: 0.07rem;
+    color: #ffffff;
+}
+.tab_title {
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    color: #111111;
+    position: relative;
+}
+.caret {
+    position: absolute;
+    width: 0rem;
+    height: 0rem;
+    border: 0.2rem solid;
+    border-top-color: #01b5ff;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    top: 0.74rem;
+    left: 50%;
+    margin-left: -0.1rem;
+    display: none;
+}
+.tea_tiao {
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+}
+.hot {
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-left: 0.2rem;
+    padding-top: 0.3rem;
+    font-size: 0.24rem;
+}
+.hot .shu {
+    width: 0.04rem;
+    height: 0.2rem;
+    background: #01b5ff;
+    display: inline-block;
+    float: left;
+    margin-left: -0.15rem;
+    margin-top: 0.07rem;
+    overflow: hidden;
+}
+.hot h2 {
+    font-size: 0.26rem;
+    color: #333;
+    margin-bottom: 0.14rem;
+    font-weight: normal;
+}
+.hot .yuan {
+    width: 0.25rem;
+    height: 0.25rem;
+    background: url('../img/hot_01.png') no-repeat;
+    float: left;
+    margin-left: -0.25rem;
+    margin-top: 0.06rem;
+    overflow: hidden;
+}
+.hot p {
+    color: #666;
+    width: 100%;
+    background: transparent;
+    margin-top: -0.02rem;
+    line-height: 0.36rem;
+    margin-left: 0;
+    text-align: left;
+}
+.hot .zk {
+    color: #ff9300;
+    display: block;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    background: #fff;
+    /* float: left; */
+    line-height: 0;
+    font-size: 0.27rem;
+    margin: 0.3rem auto;
+    margin-left: 0;
+}
+.hot .line {
+    width: 100%;
+    height: 0;
+    float: left;
+    border-bottom: 1px solid #b8b8b8;
+}
+.yema {
+    width: 100%;
+    height: auto;
+}
+.tea_tiaos {
+    height: 0.8rem;
+    padding-top: 0.15rem;
+}
+.tea_tiaos a {
+    float: left;
+    padding: 0.1rem;
+    height: 0.5rem;
+    border-radius: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.3rem;
+    margin-right: 0.15rem;
+}
+.tea_tiaos a:nth-child(1) {
+    width: 0.5rem;
+    margin-left: 0.3rem;
+    background: url('../img/s1.png') 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_tiaos a:nth-child(2) {
+    width: 1.48rem;
+    background: url('../img/s2.png') 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_tiaos a.a1 {
+    border: 1px solid #666;
+    letter-spacing: 1px;
+    color: #666;
+    width: 1.4rem;
+}
+.tea_tiaos a:nth-child(4) {
+    width: 1.48rem;
+    background: url('../img/s3.png') 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_tiaos a:nth-child(5) {
+    width: 0.5rem;
+    background: url('../img/s4.png') 0 0 no-repeat;
+    background-size: 100%;
+}
+.tea_copyright {
+    width: 100%;
+    height: 1.2rem;
+    font-size: 0.3rem;
+    overflow: hidden;
+}
+.tea_copyright p {
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    padding-top: 0.18rem;
+    box-sizing: border-box;
+}
