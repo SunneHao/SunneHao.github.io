@@ -97,8 +97,9 @@ header{
 }
 .content1{
 	max-width: 1200px;
-	height:45%;
+	height:55%;
 	margin: 0 auto;
+	position: relative;
 	/* border-top: 2px solid #ccc; */ 
 }
 .content2{
@@ -129,7 +130,7 @@ header{
 	width: 200px;
 	height: 60px;
 	margin-left: 200px;
-	margin-top: 30px;
+	margin-bottom: 15px;
 	transition: all 0.5s linear;
 }
 .title img{
@@ -151,6 +152,7 @@ header{
 	overflow: hidden;
 	margin: 0 auto;
 	border-top: 2px solid #ccc;
+	position: relative;
 }
 .show2{
 	width: 200px;
@@ -166,6 +168,11 @@ header{
 .show2 img{
 	width: 100%;
 	height: 100%;
+}
+.show1 ul{
+	width:100%;
+	overflow: hidden;
+	position: relative;
 }
 .show1 ul li{
 	width: 260px;
@@ -395,7 +402,7 @@ header{
 }
 .skillname{
 	width:100%;
-	height:20%;
+	height:10%;
 	padding-left: 10px;
 	font-size: 26px;
 	font-family: 微软雅黑;
@@ -456,7 +463,7 @@ header{
 	text-align: center;
 	color: #ccc;
 	position: absolute;
-	top:230px;
+	top:175px;
 	left:60px;
 	cursor: pointer;
 	z-index:10;
@@ -470,7 +477,7 @@ header{
 	color: #ccc;
 	line-height: 50px;
 	position: absolute;
-	top:230px;
+	top:175px;
 	right:60px;
 	cursor: pointer;
 	z-index:10;
@@ -508,4 +515,147 @@ header{
 }
 .skill ul li a:hover .ps{
 	display: block;
+}
+.lol{
+	position: absolute;
+	left:-600px;
+}
+.lol1{
+	position: absolute;
+	right:-600px;
+}
+.lol2{
+	position: absolute;
+	top:-300px;
+}
+.lol3{
+	position: absolute;
+	bottom:-300px;
+}
+.show3{
+	max-width: 1200px;
+	height:600px;
+	margin: 0 auto;
+	border-top: 2px solid #ccc;
+	position: relative;
+}
+.kuai{
+	width:300px;
+	height:310px;
+	float: left;
+	border:1px solid #ccc;
+	background: red;
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:40px;
+	margin: auto;
+	opacity:0;
+	/*z-index:15;*/
+}
+.kuai1{
+	width:300px;
+	height:310px;
+	float: left;
+	border:1px solid #ccc;
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin: auto;
+	opacity:0;
+}
+.kuai2{
+	width:300px;
+	height:310px;
+	float: left;
+	border:1px solid #ccc;
+	position: absolute;
+	top:0;
+	right:40px;
+	bottom:0;
+	margin: auto;
+	opacity:0;
+}
+@keyframes showfly {
+	0%{
+		opacity:0;
+		left:-300px;
+	}
+	100%{
+		opacity:1;
+		left:50px;
+	}
+}
+@keyframes showfly1 {
+	0%{
+		opacity:0;
+		top:-300px;
+	}
+	100%{
+		opacity:1;
+		left:0;
+	}
+}
+@keyframes showfly2 {
+	0%{
+		opacity:0;
+		right:-300px;
+	}
+	100%{
+		opacity:1;
+		right:50px;
+	}
+}
+.showfly{
+	 animation: showfly 1s linear forwards;
+ }
+.showfly1{
+	animation: showfly1 1s linear forwards;
+}
+.showfly2{
+	animation: showfly2 1s linear forwards;
+}
+.kuaitu{
+	width:100%;
+	height:100%;
+	/*float: left;*/
+}
+.show3 a{
+	display: block;
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.showhover{
+	width:300px;
+	height:310px;
+	background: rgba(0,0,0,0.8);
+	font-size: 30px;
+	font-family: "苹方 常规";
+	text-align: center;
+	line-height: 310px;
+	color: #ccc;
+	position: absolute;
+	top:0;
+	left:0;
+	display: none;
+}
+.kuai:hover .showhover{
+	display: block;
+}
+.kuai1:hover .showhover{
+	display: block;
+}
+.kuai2:hover .showhover{
+	display: block;
+}
+.eah{
+	width:580px;
+	height:335px;
+	/*float: left;*/
+	margin:0 auto;
+	position: absolute;
+	z-index: 20;
 }

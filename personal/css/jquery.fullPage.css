@@ -117,8 +117,8 @@ html, body {
 .fp-slidesNav ul {
   margin: 0;
   padding: 0;
-    width:30px;
-    height:120px;
+    width:120px;
+    height:30px;
     /*background: #ccc;*/
 }
 #fp-nav ul li,
@@ -132,6 +132,7 @@ html, body {
 }
 .fp-slidesNav ul li {
     display: inline-block;
+    float: left;
 }
 #fp-nav ul li a,
 .fp-slidesNav ul li a {
