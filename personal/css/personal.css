@@ -38,7 +38,7 @@ header{
 	height: 30px; 
 	position: absolute;
 	top: 35px;
-	right: 0px;
+	right: 0;
 	background: #001B24;
 }
 .t{
@@ -97,14 +97,14 @@ header{
 }
 .content1{
 	max-width: 1200px;
-	height:55%;
+	height:100%;
 	margin: 0 auto;
 	position: relative;
 	/* border-top: 2px solid #ccc; */ 
 }
 .content2{
 	width: 600px;
-	height:100%;
+	height:15%;
 	margin: 0 auto;
 }
 .content .line{
@@ -127,14 +127,15 @@ header{
 	color: #ccc;
 }
 .title{
-	width: 200px;
+	width: 1200px;
 	height: 60px;
-	margin-left: 200px;
+	margin:0 auto;
 	margin-bottom: 15px;
 	transition: all 0.5s linear;
+	padding-left: 200px;
 }
 .title img{
-	width: 100%;
+	width: 25%;
 	height: 100%;
 }
 .title:hover{
@@ -193,7 +194,7 @@ header{
 .box{
 	width: 260px;
 	height: 260px;
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.6);
 	position: absolute;
 	top: 0;
 	display: none;
@@ -213,7 +214,7 @@ header{
 	left: 80px;
 }
 .box2{
-	width: 250px;
+	width: 150px;
 	height: 50px;
 	background: rgba(255, 255, 255, 0.1);
 	font-size: 40px;
@@ -223,7 +224,7 @@ header{
 	border: 1px solid #ccc;
 	position: absolute;
 	top: 105px;
-	left: 5px;
+	left:60px;
 }
 .show1 ul li .tu1{
 	width: 100%;
@@ -243,7 +244,7 @@ header{
 }
 .message1{
 	max-width: 1200px;
-	overflow: hidden;
+	height: auto;
 	margin: 0 auto;
 	border-top: 1px solid #ccc;
 	position: relative;
@@ -264,28 +265,57 @@ header{
 	width: 100%;
 	height: 100%;
 }
-.liuyan{
-	width: 1100px;
-	height: 300px;
-	margin: 0 auto;
+.contact{
+	width:740px;
+	height:auto;
+	margin:0 auto;
+	margin-top: 15px;
 }
-.liuyan1{
-	width: 100%;
-	height: 100%;
-	padding: 10px;
-	font-size: 40px;
+.contact1{
+	width:350px;
+	height:30px;
+	background: #ccc;
+	margin-left:15px;
+	margin-top: 15px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #555;
 }
-.tijiao{
+.contact2{
+	width:720px;
+	height:30px;
+	background: #ccc;
+	margin-left:15px;
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #555;
+}
+textarea{
+	width:720px;
+	height:150px;
+	background: #ccc;
+	margin-left:15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	line-height: 40px;
+	color: #555;
+}
+.submit{
+	display: block;
 	width:100px;
-	height: 50px;
-	border-radius: 10%;
-	background: #444;
-	font-size: 30px;
-	color: #ccc;
+	height:30px;
+	border:1px solid #fff;
+	font-size: 20px;
+	line-height: 30px;
+	color: #fff;
+	background: rgba(0,0,0,0);
 	position: absolute;
-	top: 362px;
-	right: 35px;
-	z-index: 1000;
+	left:0;
+	right:0;
+	margin:auto;
+	/*z-index:100;*/
 }
 .foot{
 	height:50%;
@@ -653,9 +683,38 @@ header{
 }
 .eah{
 	width:580px;
-	height:335px;
-	/*float: left;*/
-	margin:0 auto;
+	height:700px;
 	position: absolute;
+	top:100px;
+	left:0;
 	z-index: 20;
+}
+.jieshao{
+	width:580px;
+	height:auto;
+	float: right;
+}
+.jieshao h3{
+	display: block;
+	color: #ccc;
+	width:160px;
+	height:60px;
+	margin:0 auto;
+	text-align: center;
+	line-height: 30px;
+}
+.jieshao ul{
+	width:100%;
+	height:auto;
+}
+.jieshao ul li{
+	display: block;
+	width:80%;
+	height:70px;
+	font-size: 20px;
+	/*text-align: center;*/
+	line-height: 70px;
+	color: #ccc;
+	border-bottom: 1px dashed #ccc;
+	margin:0 auto;
 }
