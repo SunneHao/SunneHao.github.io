@@ -1,0 +1,58 @@
+.dong(@i:0)when(@i<=50){
+    @selector:@i*2%;
+    @angle:@i*7.2deg;
+    @{selector}{
+      transform: rotate(@angle);
+    }
+  .dong(@i+1);
+}
+@keyframes dong {
+  .dong;
+}
+.music{
+  animation:dong 10s linear infinite;
+}
+.music{
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  position: fixed;
+  border:1px solid #ccc;
+  top:100px;
+  right:50px;
+  background: url("../img/music.jpg") center no-repeat;
+  background-size: 100%;
+}
+nav{
+  width:150px;
+  height:600px;
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:20px;
+  margin:auto;
+  //background: #4ecc1e;
+}
+.nav{
+  display: block;
+  width:150px;
+  height:100%;
+}
+.nav li{
+  display: block;
+  width:85%;
+  height:60px;
+  margin: 0 auto;
+  border:1px solid #2692ff;
+  font-size: 25px;
+  font-family: "苹方 中等";
+  text-align: center;
+  line-height: 60px;
+  margin-top: 50px;
+  color: #0bff0c;
+  border-radius: 15px;
+}
+.nav li:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 8px 1px rgba(0,114,127,0.2);
+}

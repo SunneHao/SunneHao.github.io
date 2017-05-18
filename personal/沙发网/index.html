@@ -1,886 +1,1364 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/12栅格.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/iconfont.css">
-</head>
-<body>
-<div class="container-fluid">
-    <div class="container">
-        <div class="row header">
-            <div class="col-sm-12 col-xs-12">
-                <a href="" class="logo">
-                    <img src="img/logo.jpg" alt="">
-                </a>
-                <div class="login">
-                    <a href="">
-                        登录
-                    </a>
-                    <span>|</span>
-                    <a href="">
-                        注册
-                    </a>
-                </div>
-                <div class="search">
-                    <form action="" method="get">
-                        <div class="sousuok">
-                            <input type="text" placeholder="搜索电视应用" class="sousuo-text">
-                        </div>
-                        <button type="submit" class="btn">
-                            <i class="iconfont icon-sousuo"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--导航开始-->
-<nav>
-    <div class="container">
-        <div class="nav-bar">
-            <ul class="nav-bar-nav">
-                <li class="active">
-                    <a href="">沙发网</a>
-                </li>
-                <li>
-                    <a href="">应用市场</a>
-                </li>
-                <li>
-                    <a href="">客户端下载</a>
-                </li>
-                <li>
-                    <a href="">安装教程</a>
-                </li>
-                <li>
-                    <a href="">产品库</a>
-                </li>
-                <li>
-                    <a href="">论坛</a>
-                </li>
-                <li>
-                    <a href="">资讯</a>
-                </li>
-            </ul>
-            <ul class="sub-nav">
-                <li>
-                    <a href="">菜鸟学堂</a>
-                </li>
-                <li>
-                    <a href="">开发者平台</a>
-                </li>
-            </ul>
-        </div>
-        <div class="nav-header">
-            <button type="button" class="navbar-topggle">
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>沙发网</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />	
+		<link rel="stylesheet" type="text/css" href="css/screen.css" />		
+	</head>
+
+	<body>
+		<!--头部-->
+		<section class="top-bar-element">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<a href="" class="top-bar-logo">
+							<img src="img/logo.jpg" alt="沙发网" title="沙发网">
+						</a>
+						<div class="top-bar-login">
+							<a href="">登录</a>
+							<span>|</span>
+							<a href="">注册</a>
+						</div>
+						<div class="top-bar-search">
+							<form method="GET" class="form-inline">
+
+								<div class="form-group">
+									<input class="form-control" placeholder="搜索电视应用" name="kw" type="text">
+								</div>
+								<button class="btn btn-success" type="submit"><i class="fa fa-search"></i></button>
+
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--导航-->
+		<nav class="navbar navbar-inverse nav-bar-element">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed">
+                <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-        </div>
-    </div>
-</nav>
-<!--导航结束-->
-<!--banner开始-->
-<section class="index-banner">
-    <div class="container">
-        <div class="row">
-            <div class="index-banner-text col-md-6 col-sm-12 col-xs-12">
-                <h1>千万家庭最信赖的电视应用市场</h1>
-                <p>沙发管家帮助您在海量的安卓应用中精准搜索，高速下载，云端管理</p>
-                <div class="banner-text-download">
-                    <p>
-                        下载沙发管家( V5.0.4 )
-                        <a href="">官方论坛</a>
-                        <a href="">视频介绍</a>
-                        <a href="">V4版下载</a>
-                    </p>
-                    <a href="">立即下载</a>
-                </div>
-                <section class="anzhuang">
-                    <h1>
-                        <span>沙发管家</span>安装教程
-                    </h1>
-                    <div class="anzhuang-brand">
-                        <input type="text" placeholder="选择智能电视/电视盒子品牌">
-                    </div>
-                    <div class="anzhuang-models">
-                        <input type="text" placeholder="输入型号">
-                    </div>
-                    <div class="anzhuang-help">
-                        <a href="">没有我的产品型号，获取更多帮助</a>
-                    </div>
-                </section>
-            </div>
-            <div class="index-banner-image col-md-6 col-sm-12">
-                <div class="banner-image-mask">
-                    <a href="">
-                        <img src="img/banner1.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--banner结束-->
-<div class="container">
-    <!--沙发产品大全开始-->
-    <div class="col-md-8 col-sm-12">
-        <div class="index-product">
-            <h2>沙发网产品大全</h2>
-            <div class="index-product-main">
-                <div class="product-item col-sm-6">
-                    <a href="">
-                        <img src="img/product1.png!medium.icon" alt="">
-                    </a>
-                    <div class="product-item-info">
-                        <a href="">
-                            <h3>
-                                沙发管家
-                            </h3>
-                        </a>
-                        <p>为电视盒子提供超多款完美适合在电视盒子上使用的影视，软件，游戏。</p>
-                        <a href="">立即下载</a>
-                        <span>|</span>
-                        <a href="">官方网站</a>
-                        <span class="hidden">|</span>
-                        <a href="" class="hidden">官方论坛</a>
-                    </div>
-                </div>
-                <div class="product-item col-sm-6">
-                    <a href="">
-                        <img src="img/product2.png!medium.icon" alt="">
-                    </a>
-                    <div class="product-item-info">
-                        <a href="">
-                            <h3>
-                                沙发桌面
-                            </h3>
-                        </a>
-                        <p>专为电视盒子量身设计，电视直播功能、影视点播功能、应用中心功能，沙发桌面一次性搞定！</p>
-                        <a href="">立即下载</a>
-                        <span>|</span>
-                        <a href="">官方网站</a>
-                        <span class="hidden">|</span>
-                        <a href="" class="hidden">官方论坛</a>
-                    </div>
-                </div>
-                <div class="product-item col-sm-6">
-                    <a href="">
-                        <img src="img/product3.png!medium.icon" alt="">
-                    </a>
-                    <div class="product-item-info">
-                        <a href="">
-                            <h3>
-                                沙发电视助手
-                            </h3>
-                        </a>
-                        <p>智能极速扫描，实现超强深度清理！轻松一次点击，瞬间清除缓存垃圾！</p>
-                        <a href="">立即下载</a>
+				</div>
+				<div class="navbar-collapse collapse" id="navbarCollapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="">沙发网</a>
+						</li>
+						<li>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">影视点播</a>
+								</li>
+								<li>
+									<a href="">电视直播</a>
+								</li>
+								<li>
+									<a href="">软件应用</a>
+								</li>
+								<li>
+									<a href="">电视游戏</a>
+								</li>
+								<li>
+									<a href="">最热</a>
+								</li>
+								<li>
+									<a href="">专题</a>
+								</li>
+							</ul>
+							<a href="">应用市场</a>
+						</li>
+						<li>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">沙发管家</a>
+								</li>
+								<li>
+									<a href="">沙发桌面</a>
+								</li>
+								<li>
+									<a href="">沙发电视精灵</a>
+								</li>
+							</ul>
+							<a href="">客户端下载</a>
+						</li>
+						<li>
+							<a href="">安装教程</a>
+						</li>
+						<li>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">智能电视</a>
+								</li>
+								<li>
+									<a href="">电视盒子</a>
+								</li>
+								<li>
+									<a href="">投影仪</a>
+								</li>
+							</ul>
+							<a href="">产品库</a>
+						</li>
+						<li>
+							<a href="">论坛</a>
+						</li>
+						<li>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">智能电视</a>
+								</li>
+								<li>
+									<a href="">电视盒子</a>
+								</li>
+								<li>
+									<a href="">新闻资讯</a>
+								</li>
+								<li>
+									<a href="">玩机攻略</a>
+								</li>
+								<li>
+									<a href="">应用心得</a>
+								</li>
+								<li>
+									<a href="">智能硬件</a>
+								</li>
+								<li>
+									<a href="">家电测评</a>
+								</li>
+								<li>
+									<a href="">VR虚拟现实</a>
+								</li>
+							</ul>
+							<a href="">资讯</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav sub-nav">
+						<li>
+							<a href="">菜鸟学堂</a>
+						</li>
+						<li>
+							<a href="">开发者平台</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-                    </div>
-                </div>
-                <div class="product-item col-sm-6">
-                    <a href="">
-                        <img src="img/product4.png!medium.icon" alt="">
-                    </a>
-                    <div class="product-item-info">
-                        <a href="">
-                            <h3>
-                                沙发管家手机版
-                            </h3>
-                        </a>
-                        <p>实现了局域网内用手机给智能机顶盒安装第三方应用，轻松看直播看点播玩游戏。</p>
-                        <a href="">立即下载</a>
+		<!--banner-->
+		<section class="index-banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 index-banner-text">
+						<h1>千万家庭最信赖的电视应用市场</h1>
+						<p>沙发管家帮助您在海量的安卓应用中精准搜索，高速下载，云端管理</p>
+						<div class="banner-text-download">
+							<p>下载沙发管家( V5.0.4 )
+								<a href="">官方论坛</a>
+								<a href="">视频介绍</a>
+								<a href="">V4版下载</a>
+							</p>
+							<a class="btn btn-success btn-lg">立即下载</a>
+						</div>
+						<section class="tutorial-select-element">
+							<h1>
+								<span>沙发管家</span>安装教程
+							</h1>
+							<div class="btn-group tutorial-select-brands">
+								<input class="form-control tutorial-brands-search" placeholder="选择智能电视/电视盒子品牌">
+							</div>
+							<div class="btn-group tutorial-select-models">
+								<input class="form-control tutorial-brands-search" placeholder="输入型号">
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4 contact">
-        <div class="index-contact">
-            <img src="img/contact.jpg" alt="">
-            <div class="contact-text">
-                <span>扫描关注沙发管家微信</span>
-                <span>
-                    <span>QQ群：</span>
-                    <a href="">
-                        <img src="img/group.png" alt="">
-                    </a>
-                </span>
-                <span>
-                    <span>微博：</span>
-                    <span class="icon">
-                        <em></em>
-                        <span class="guanzhu">加关注</span>
-                    </span>
-                </span>
+							</div>
+							<div class="tutorial-select-helper">
+								<a href="">没有我的产品型号，获取更多帮助</a>
+							</div>
+						</section>
+					</div>
+					<div class="col-md-6 hidden-sm hidden-xs index-banner-image">
+						<div class="banner-image-mask pull-right">
+							<div class="banner-image-screenshots">
+								<a href="" class="fade active in">
+									<img src="img/7c247d71ce0d2361d9ef2d787b52ea627df6ea54.jpg">
+								</a>
+								<a href="" class="fade active">
+									<img src="img/d0d7bf272fe5e75fb9bbc1e93fc6fe308d2b706f.jpg">
+								</a>
+							</div>
+						</div>
+					</div>
+					<script type="text/javascript">
+						var fades=document.querySelectorAll(".banner-image-screenshots .fade");
+						var num=0;
+						var fadeNow=fades[0];
+						setInterval(function(){
+							num++;
+							if(num==fades.length){
+								num=0;								
+							}
+							fadeNow.classList.remove("in");
+							fades[num].classList.add("in");
+							fadeNow=fades[num];
+							
+						},5000);
+					</script>
+				</div>
+			</div>
+		</section>
 
-            </div>
-        </div>
-        <a href="" class="www-index-images">
-            <img src="img/contact2.jpg" alt="">
-        </a>
-    </div>
-    <!--沙发产品大全结束-->
-    <!--广告开始-->
-    <div style="clear: both"></div>
-    <div class="gg col-sm-12 col-md-12">
-        <img src="img/gg.jpg" alt="">
-    </div>
-    <!--广告结束-->
-    <!--电视应用开始-->
-    <div class="col-sm-12">
-        <div class="page-header">
-            <h2>
-                精选安卓电视应用
-                <span>
-                    <a href="">
-                        <i>
-                            <img src="img/xiazai.png" alt="">
-                        </i>
-                        点击下载智能电视必备软件
-                    </a>
-                </span>
+		<!--主题内容-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-12">
+					<section class="index-products">
+						<h2 id="products" name="products">沙发网产品大全</h2>
+						<div class="row">
+							<div class="col-sm-6 products-item">
+								<a href="">
+									<img src="img/c3dec29df20d3b854ee0cba18743d20f2dadc987.png" class="product-item-icon">
+								</a>
+								<div class="product-item-info">
+									<a class="product-item-title" href="">
+										<h3>沙发管家</h3>
+									</a>
+									<p class="product-item-desc">为电视盒子提供超多款完美适合在电视盒子上使用的影视，软件，游戏。</p>
+									<a href="">立即下载</a>
+									<span class="hidden-xs">|</span>
+									<a class="hidden-xs" href="">官方网站</a>
+									<span class="visible-lg">|</span>
+									<a class="visible-lg" href="">官方论坛</a>
+								</div>
+							</div>
+							<div class="col-sm-6 products-item">
+								<a href="">
+									<img src="img/25b73b7cb0c2618fad7fd7165e7775a6def51e3d.png" class="product-item-icon">
+								</a>
+								<div class="product-item-info">
+									<a class="product-item-title" href="">
+										<h3>沙发桌面</h3>
+									</a>
+									<p class="product-item-desc">专为电视盒子量身设计，电视直播功能、影视点播功能、应用中心功能，沙发桌面一次性搞定！</p>
+									<a href="">立即下载</a> <span class="hidden-xs">|</span>
+									<a class="hidden-xs" href="">官方网站</a> <span class="visible-lg">|</span>
+									<a class="visible-lg" href="">官方论坛</a>
+								</div>
+							</div>
+							<div class="col-sm-6 products-item">
+								<a href="">
+									<img src="img/9db41bd002fb2200c17764a0807e98496f3d92a7.png" class="product-item-icon">
+								</a>
+								<div class="product-item-info">
+									<a class="product-item-title" href="" title="沙发电视助手">
+										<h3>沙发电视助手</h3>
+									</a>
+									<p class="product-item-desc">智能极速扫描，实现超强深度清理！轻松一次点击，瞬间清除缓存垃圾！</p>
+									<a href="">立即下载</a>
+								</div>
+							</div>
+							<div class="col-sm-6 products-item">
+								<a href="">
+									<img src="img/75d1df2087fd1c72deb71fe12a74b15a7d4b1f4f.png" class="product-item-icon">
+								</a>
+								<div class="product-item-info">
+									<a class="product-item-title" href="" title="沙发管家手机版">
+										<h3>沙发管家手机版</h3>
+									</a>
+									<p class="product-item-desc">实现了局域网内用手机给智能机顶盒安装第三方应用，轻松看直播看点播玩游戏。</p>
+									<a class="product-item-title" href="">立即下载</a>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="col-md-4 hidden-sm hidden-xs">
+					<section class="index-contact">
+						<div class="contact-element clearfix">
+							<img src="img/2a4d32257b925d36207f84e5b2946fc45de11cf9.jpg" class="contact-element-weixin">
+							<div class="contact-element-text">
+								<span class="contact-element-weixin">扫描关注沙发管家微信</span>
+								<span class="contact-element-qqgroup">
+            <span>QQ群：</span>
+								<a href="">
+									<img border="0" src="img/group.png">
+								</a>
+								</span>
+								<span class="contact-element-weibo">微博：</span>
+								<a href="">
+									<img border="0" src="img/wbgz.jpg">
+								</a>
+							</div>
+						</div>
+					</section>
+					<a href="" class="www-index-image">
+						<img src="img/2b8b1936c4a6384dd71c673bfff8b12bd63a6590.jpg">
+					</a>
+				</div>
+			</div>
 
-            </h2>
-            <a href="">全部应用>></a>
-        </div>
-        <ul class="yingyong-list">
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong1.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                腾讯视频TV版
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong2.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                爱奇艺TV
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong3.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                魔力视频
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong4.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                电视家2.0
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong5.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                沙发助手
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong6.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                芒果TV
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong7.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                QQ音乐TV版
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong8.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                斗鱼直播电视版
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong9.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                VST全聚合
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong10.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                电视猫视频
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong11.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                HDP直播
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li class="col-md-2 col-sm-3 col-xs-6">
-                <div class="yingyong-ele">
-                    <a href="">
-                        <img src="img/yingyong12.png!medium.icon" alt="">
-                        <div class="app-title">
-                            <h5>
-                                UC浏览器TV版
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </li>
-        </ul>
-        <a href="" class="yingyong-more">查看更多应用</a>
-    </div>
-    <!--电视应用结束-->
-    <!--智能电视市场开始-->
-    <div class="col-md-8 col-sm-12">
-        <section class="panel">
-            <div class="panel-header">
-                <h2>
-                    智能电视市场与应用
-                    <a href="">查看更多>></a>
-                </h2>
-            </div>
-            <div class="panel-body">
-                <div class="artical-left">
-                    <ul class="artical-list">
-                        <li class="artical-item1">
-                            <a href="">
-                                <h3>《速度与激情》1-8全集资源+观看方法</h3>
-                            </a>
-                            <div class="item-content">
-                                <img src="img/jsjq.png" alt="">
-                                <div class="item-text">
-                                    <p>
-                                        《速度与激情》1-8全集资源+观看方法
-                                        <a href="">【详细】</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="artical-item3">
-                            <span>
+			<div class="row">
+				<div class="col-sm-12">
+					<section class="index-recommends" id="recommends" name="recommends">
+						<div class="page-header index-section-header">
+							<h2>
+                            精选安卓电视应用
+                            <small>
+                                <a  href=""><i class="fa fa-download"></i> 点击下载智能电视必备软件</a>
+                                <a class="pull-right" href="" >全部应用»</a>
+                            </small>
+                        </h2>
+						</div>
+						<ul class="row list-unstyled index-recommends-list">
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/e6923339dafef8dde7db9f42d1a4b53fc031cdad.png">
+										<div class="caption app-block-title">
+											<h5>腾讯视频TV版</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">腾讯视频TV版</span>
+											<span class="app-block-promo">腾讯视频TV版重回客厅</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success" >详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/07c25ebbbc49e2da6215d65aee3d4322bebc8442.png">
+										<div class="caption app-block-title">
+											<h5>爱奇艺TV</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">爱奇艺TV</span>
+											<span class="app-block-promo">终极悬念一一揭晓</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success">详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/3523d1f8b91779fef373df99259f5441ce0b3756.png">
+										<div class="caption app-block-title">
+											<h5>魔力视频</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">魔力视频MoliTv</span>
+											<span class="app-block-promo">枪版速度与激情7,海军陆战队4,鲨卷风居然可以看！</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success" >详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/ee11a5049cdaef7f0ad8b36a8053ce0d7ab54cae.png">
+										<div class="caption app-block-title">
+											<h5>电视家2.0</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">电视家2.0TVLive</span>
+											<span class="app-block-promo">电视家全新2.0版闪亮登场！全新改版！</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success">详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/9db41bd002fb2200c17764a0807e98496f3d92a7.png">
+										<div class="caption app-block-title">
+											<h5>沙发助手</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">沙发助手Shafa Helper</span>
+											<span class="app-block-promo">超强一键智能优化，一秒全面提速！</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success" >详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/30f933a19f3a0ceb75d5b4031efab36d77adcc4a.png">
+										<div class="caption app-block-title">
+											<h5>芒果TV</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">芒果TVmangoTV</span>
+											<span class="app-block-promo">聚合湖南卫视所有综艺节目独家互联网电视版权！</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success" >详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/d9ab24d2864d4249c8fa01d9cb8f6501c3353f29.png">
+										<div class="caption app-block-title">
+											<h5>QQ音乐TV版</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">QQ音乐TV版QQmusic</span>
+											<span class="app-block-promo">完美适配当前主流电视设备和盒子，全新视觉形象，给你好用的TV播放体验
+1.全网正版曲库，听你想听的歌；
+2.百万MV片源</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success" >详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/d14723082201860478c9cb79f0fdc7864c38db02.png">
+										<div class="caption app-block-title">
+											<h5>斗鱼直播电视版</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">斗鱼直播电视版</span>
+											<span class="app-block-promo">斗鱼TV以游戏直播为主，提供高清，快捷，流畅的视频直播</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success" >详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/3077691fbc1568e0b7245b594b113e9188fdf9d9.png">
+										<div class="caption app-block-title">
+											<h5>VST全聚合</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">VST全聚合VST</span>
+											<span class="app-block-promo">最好用的聚合软件！影视点播、电视直播，一个软件全搞定！</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success" >详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/11c9b1455028e22be194564045cee79a9f4f128c.png">
+										<div class="caption app-block-title">
+											<h5>电视猫视频</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">电视猫视频MoreTV</span>
+											<span class="app-block-promo">《速度与激情7》让《花样姐姐》林志玲看了都叫“爽”！</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success" >详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/8913f0f5fa836464dd5f41cec3101b55db1c8ef5.png">
+										<div class="caption app-block-title">
+											<h5>HDP直播</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">HDP直播</span>
+											<span class="app-block-promo">高峰时段直播卡顿较少,体育台,卫视台高清,还有韩国热门电视台</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success" >详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+							<li class="col-md-2 col-sm-3 col-xs-6">
+								<div class="thumbnail app-block-element">
+									<a class="app-block-link" href="">
+										<img class="app-block-icon" src="img/d0961116183ae56f74100deae687d38b94893a43.png">
+										<div class="caption app-block-title">
+											<h5>UC浏览器TV版</h5>
+										</div>
+									</a>
+									<div class="app-block-over">
+										<a href="">
+											<span class="app-block-title">UC浏览器TV版UC Mobile TV</span>
+											<span class="app-block-promo">这个长时间存活于手机里的浏览器出TV版啦！</span>
+											<span class="app-block-rating">
+                                评分：
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                                </span>
+										</a>
+										<span class="app-block-detail">
+            <a href="" class="btn btn-mini btn-success" >详情</a>
+        </span>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<a class="btn pull-right index-recommends-more" href="">查看更多应用</a>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-sm-12">
+					<section class="panel panel-default www-index-section articles">
+						<div class="panel-heading">
+							<h2 class="panel-title">智能电视市场与应用 <small><a class="pull-right" href="" >查看更多&gt;&gt;</a></small></h2>
+						</div>
+						<div class="panel-body">
+							<div class="index-articles-left">
+								<ul class="list-unstyled index-articles-list">
+									<li class="item-model-1">
+										<a href="">
+											<h3>《速度与激情》1-8全集资源+观看方法</h3></a>
+										<div class="item-context">
+											<img src="img/484a32acb1edd81bcfbe514c388db08d.png">
+											<div class="item-text">
+												<p>《速度与激情》1-8全集资源+观看方法
+													<a href="" target="_">[ 详细 ]</a>
+												</p>
+											</div>
+										</div>
+									</li>
+									<li class="item-model-3">
+										<span></span>
+										<a href="">雷鸟电视I55与PPTV 55P1S谁更好呢？</a>
+									</li>
+									<li class="item-model-3">
+										<span></span>
+										<a href="">海信ULED电视全新“璀璨”系列</a>
+									</li>
+									<li class="item-model-3">
+										<span></span>
+										<a href="">创维Q7权威评测：最接近OLED的液晶电视</a>
+									</li>
+									<li class="item-model-3">
+										<span></span>
+										<a href="">量子点电视市场很火爆 优势到底在哪里？</a>
+									</li>
+									<li class="item-model-3">
+										<span></span>
+										<a href="">品质生活不二之选 高端OELD电视推荐</a>
+									</li>
+									<li class="item-model-3">
+										<span></span>
+										<a href="">3万多的量子点+ULED电视 达到画质的新高度</a>
+									</li>
+									<li class="item-model-3">
+										<span></span>
+										<a href="">极致匠心 细节把控 索尼A1电视外观图赏</a>
+									</li>
+									<li class="item-model-3">
+										<span></span>
+										<a href="">索尼4K HDR OLED电视A1追求简单美</a>
+									</li>
+								</ul>
+							</div>
+							<div class="index-articles-right">
+								<ul class="list-unstyled index-articles-list">
+									<li class="item-model-2">
+										<a href="">
+											<div class="item-image">
+												<img src="img/f87cae342c32456f679c5795d2c41a3a.jpg">
+											</div>
+											<span>艾洛维VH500无屏电视体验</span>
+										</a>
+									</li>
+									<li class="item-model-2">
+										<a href="">
+											<div class="item-image">
+												<img src="img/609e6ab2cd3fba4d5cf11a415c0793fb.jpg">
+											</div>
+											<span>天猫魔盒3让客厅狂欢</span>
+										</a>
+									</li>
+									<li class="item-model-2">
+										<a href="">
+											<div class="item-image">
+												<img src="img/bff36051304cdc2eadf08e8393b930cd.jpg">
+											</div>
+											<span>雷鸟I55对比PPTV 55P1S</span>
+										</a>
+									</li>
+									<li class="item-model-2">
+										<a href="">
+											<div class="item-image">
+												<img src="img/7b8160571da57aec1ea98765e54fd339.jpg">
+											</div>
+											<span>神画TT-P超级投影试用体验</span>
+										</a>
+									</li>
+									<li class="item-model-2">
+										<a href="">
+											<div class="item-image">
+												<img src="img/08a2070bb5c56724ddd1ff221c48d055.jpg">
+											</div>
+											<span>5款高性价比电视盒子推荐</span>
+										</a>
+									</li>
+									<li class="item-model-2">
+										<a href="">
+											<div class="item-image">
+												<img src="img/c0608b61c4e3ecc5cac4065fd89f42ac.jpg">
+											</div>
+											<span>小米电视4A人工智能版试用</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="col-md-4 hidden-sm">
+					<section class="panel panel-default www-index-section devices-rank">
+						<div class="panel-heading">
+							<h2 class="panel-title">热门设备推荐 
+								<small>
+									<a class="pull-right" href="" >查看更多&gt;&gt;</a>
+								</small>
+							</h2>
+						</div>
+						<div class="panel-body">
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active">
+									<a href="javascript:void(0)">智能电视</a>
+								</li>
+								<li role="presentation">
+									<a href="javascript:void(0)">电视盒子</a>
+								</li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane active">
+									<ul class="list-unstyled devices-rank-list">
+										<li class="active">
+											<a class="rank-item-title" href="">
 
-                            </span>
-                            <a href="">雷鸟电视I55与PPTV 55P1S谁更好呢？</a>
-                        </li>
-                        <li class="artical-item3">
-                            <span>
+												<span class="ranking-item-1">1</span>
+												<h3>小米电视3S 48英寸</h3>
+												<span class="rank-item-price">￥2699</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/d5d432598da96eed1a8244234cace3be.png">
+												</div>
+												<div class="rank-item-text">
+													<p>48英寸, 超高清4K, 硬屏, LED, 四核 CPU Cortex A9 1.45GHz + 六核 GPU Mali 450, 1GB, 8GB, MIUI系统（基于Android）, 逐行扫描, 杜比, 杜比音效技术- 虚拟环绕声- 低音增强- 对白增强, 一级能效</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li >
+											<a class="rank-item-title" href="">
 
-                            </span>
-                            <a href="">海信ULED电视全新“璀璨”系列</a>
-                        </li>
-                        <li class="artical-item3">
-                            <span>
+												<span class="ranking-item-2">2</span>
+												<h3>夏普lcd-50su560a</h3>
+												<span class="rank-item-price">￥3599</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/e0aa08d20b605687e851bab7288104ba.jpg">
+												</div>
+												<div class="rank-item-text">
+													<p>50英寸, 超高清4K, LED, 三级能效</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li >
+											<a class="rank-item-title" href="">
 
-                            </span>
-                            <a href="">创维Q7权威评测：最接近OLED的液晶电视</a>
-                        </li>
-                        <li class="artical-item3">
-                            <span>
+												<span class="ranking-item-3">3</span>
+												<h3>飞利浦50PUF6061/T3</h3>
+												<span class="rank-item-price">￥2899</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/64e45d7211c936cbf7c9d182220a6f30.jpg">
+												</div>
+												<div class="rank-item-text">
+													<p>50英寸, 超高清4K, LED, 4GB, 安卓 5.1, 逐行扫描, 三级能效</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li >
+											<a class="rank-item-title" href="">
 
-                            </span>
-                            <a href="">量子点电视市场很火爆 优势到底在哪里？</a>
-                        </li>
-                        <li class="artical-item3">
-                            <span>
+												<span>4</span>
+												<h3>小米L55M5-AA</h3>
+												<span class="rank-item-price">￥3699</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/f8723022cd8134918978d9315cd11460.jpg">
+												</div>
+												<div class="rank-item-text">
+													<p>55英寸, 超高清4K, LED, Amlogic T968 Cortex A53 四核 1.8GHz, 2GB DDR3 双通道, 三级能效</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li >
+											<a class="rank-item-title" href="">
 
-                            </span>
-                            <a href="">品质生活不二之选 高端OELD电视推荐</a>
-                        </li>
-                        <li class="artical-item3">
-                            <span>
+												<span>5</span>
+												<h3>海信LED55EC520UA</h3>
+												<span class="rank-item-price">￥3099</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/74874a60afa055be530e303e4083801e.png">
+												</div>
+												<div class="rank-item-text">
+													<p>55英寸, 超高清4K, 硬屏, LED, 四核 CPU Cortex A53 1.2GHz +六核 GPU Mali450 +NEON四核协处理器, 1.5GB, 4GB, SMART TV操作系统（VIDAA界面）, 逐行扫描, Dolby解码+DTS, 五段式均衡, 二级能效</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li >
+											<a class="rank-item-title" href="">
 
-                            </span>
-                            <a href="">3万多的量子点+ULED电视 达到画质的新高度</a>
-                        </li>
-                        <li class="artical-item3">
-                            <span>
+												<span>6</span>
+												<h3>乐视超4 X50</h3>
+												<span class="rank-item-price">￥2499</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/ba065a5c27b0899755836472d12350f2.png">
+												</div>
+												<div class="rank-item-text">
+													<p>50英寸, 超高清4K, 硬屏, LED, 四核 CPU 64位（Cortex A72x2+A53x2）1.7GHz + GPU Mali T820 MP3 M-Genuine S1 Pro臻彩引擎, 3GB, 16GB, EUI5.8 (基于Android6.0), 逐行扫描, 支持Dolby Audio音效技术, DD+/Dolby Tru HD音频解码 DTS HD音频解码, 二级能效</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li class="last" >
+											<a class="rank-item-title" href="">
 
-                            </span>
-                            <a href="">极致匠心 细节把控 索尼A1电视外观图赏</a>
-                        </li>
-                        <li class="artical-item3">
-                            <span>
+												<span>7</span>
+												<h3>创维42X5</h3>
+												<span class="rank-item-price">￥2099</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/88b826444f25a55002c69c158e9a53f0.jpg">
+												</div>
+												<div class="rank-item-text">
+													<p>42英寸, 逐行扫描, 三级能效</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="tab-pane " id="rank_box">
+									<ul class="list-unstyled devices-rank-list">
+										<li class="active" >
+											<a class="rank-item-title" href="">
 
-                            </span>
-                            <a href="">索尼4K HDR OLED电视A1追求简单美</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="artical-right">
-                    <ul class="tu-list">
-                        <li class="artical-item2">
-                            <a href="">
-                                <div class="item-img">
-                                    <img src="img/item1.jpg" alt="">
-                                </div>
-                                <span>
-                                    艾洛维VH500无屏电视体验
-                                </span>
-                            </a>
-                        </li>
-                        <li class="artical-item2">
-                            <a href="">
-                                <div class="item-img">
-                                    <img src="img/item2.jpg" alt="">
-                                </div>
-                                <span>
-                                    天猫魔盒3让客厅狂欢
-                                </span>
-                            </a>
-                        </li>
-                        <li class="artical-item2">
-                            <a href="">
-                                <div class="item-img">
-                                    <img src="img/item3.jpg" alt="">
-                                </div>
-                                <span>
-                                    雷鸟I55对比PPTV 55P1S
-                                </span>
-                            </a>
-                        </li>
-                        <li class="artical-item2">
-                            <a href="">
-                                <div class="item-img">
-                                    <img src="img/item4.jpg" alt="">
-                                </div>
-                                <span>
-                                    神画TT-P超级投影试用体验
-                                </span>
-                            </a>
-                        </li>
-                        <li class="artical-item2">
-                            <a href="">
-                                <div class="item-img">
-                                    <img src="img/item5.jpg" alt="">
-                                </div>
-                                <span>
-                                    5款高性价比电视盒子推荐
-                                </span>
-                            </a>
-                        </li>
-                        <li class="artical-item2">
-                            <a href="">
-                                <div class="item-img">
-                                    <img src="img/item6.jpg" alt="">
-                                </div>
-                                <span>
-                                    小米电视4A人工智能版试用
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="col-md-4 hidden">
-        <section class="panel">
-            <div class="panel-header">
-                <h2>
-                    热门设备推荐
-                    <a href="">查看更多>></a>
-                </h2>
-            </div>
-            <div class="panel-body1">
-                <ul class="nav-tab">
-                    <li class="active">
-                        <a href="">智能电视</a>
-                    </li>
-                    <li>
-                        <a href="">电视盒子</a>
-                    </li>
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane active">
-                        <ul class="devices">
-                            <li class="active">
-                                <a href="">
-                                    <span class="ranking1 rank">
-                                        1
-                                    </span>
-                                    <h3>小米电视3S 48英寸</h3>
-                                    <span class="price">￥2699</span>
-                                </a>
-                                <div class="rank-content">
-                                    <div class="rank-item-img">
-                                        <img src="img/rank-item.png!240x" alt="">
-                                    </div>
-                                    <div class="rank-item-content">
-                                        <p>48英寸, 超高清4K, 硬屏, LED, 四核 CPU Cortex A9 1.45GHz + 六核 GPU Mali 450, 1GB, 8GB,
-                                            MIUI系统（基于Android）, 逐行扫描, 杜比, 杜比音效技术- 虚拟环绕声- 低音增强- 对白增强, 一级能效</p>
-                                        <a href="">
-                                            查看
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="ranking2 rank">
-                                       2
-                                    </span>
-                                    <h3>夏普lcd-50su560a</h3>
-                                    <span class="price">￥3599</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="ranking3 rank">
-                                       3
-                                    </span>
-                                    <h3>飞利浦50PUF6061/T3</h3>
-                                    <span class="price">￥2988</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="ranking4 rank">
-                                       4
-                                    </span>
-                                    <h3>小米L55M5-AA</h3>
-                                    <span class="price">￥3699</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="ranking4 rank">
-                                       5
-                                    </span>
-                                    <h3>海信LED55EC520UA</h3>
-                                    <span class="price">￥3099</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="ranking4 rank">
-                                       6
-                                    </span>
-                                    <h3>乐视超4 X50</h3>
-                                    <span class="price">￥2499</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="ranking4 rank">
-                                       7
-                                    </span>
-                                    <h3>创维42X5</h3>
-                                    <span class="price">￥2099</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <!--智能电视市场结束-->
-    <!--安装指南开始-->
-    <div class="col-sm-12 remenn">
-        <section class="remen">
-            <div class="remen-header">
-                <h2>热门产品安装指南</h2>
-            </div>
-            <div class="remen-main">
-                <div class="col-md-3 col-sm-6">
-                    <div class="hot-device-item">
-                        <a href="">
-                            <img src="img/hot1.jpg" alt="">
-                            <h3>
-                                天猫魔盒M13
-                                <img src="img/anzhuang.png" alt="">
-                            </h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="hot-device-item">
-                        <a href="">
-                            <img src="img/hot2.jpg" alt="">
-                            <h3>
-                                华为荣耀盒子Pro
-                                <img src="img/anzhuang.png" alt="">
-                            </h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="hot-device-item">
-                        <a href="">
-                            <img src="img/hot3.jpg" alt="">
-                            <h3>
-                                小米盒子3
-                                <img src="img/anzhuang.png" alt="">
-                            </h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="hot-device-item">
-                        <a href="">
-                            <img src="img/hot4.jpg" alt="">
-                            <h3>
-                                英菲克i9
-                                <img src="img/anzhuang.png" alt="">
-                            </h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="hot-device-item">
-                        <a href="">
-                            <img src="img/hot5.jpg" alt="">
-                            <h3>
-                                KKTV
-                                <img src="img/anzhuang.png" alt="">
-                            </h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="hot-device-item">
-                        <a href="">
-                            <img src="img/hot6.jpg" alt="">
-                            <h3>
-                                乐视TV S50 Air
-                                <img src="img/anzhuang.png" alt="">
-                            </h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="hot-device-item">
-                        <a href="">
-                            <img src="img/hot7.jpg" alt="">
-                            <h3>
-                                微鲸电视
-                                <img src="img/anzhuang.png" alt="">
-                            </h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="hot-device-item">
-                        <a href="">
-                            <img src="img/hot8.jpg" alt="">
-                            <h3>
-                                小米电视3
-                                <img src="img/anzhuang.png" alt="">
-                            </h3>
-                        </a>
-                    </div>
-                </div>
+												<span class="ranking-item-1">1</span>
+												<h3>华为荣耀盒子Pro 增强版</h3>
+												<span class="rank-item-price">￥429</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/79896d1a7cf2105078c696f7e14ee3c4.jpg">
+												</div>
+												<div class="rank-item-text">
+													<p>华为海思四核专业机顶盒芯片, 2G, Android, 4K，1080P，1080I，720P, HDMI, AV接口, 105 x 105 x 21.6毫米, 0.56千克</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li >
+											<a class="rank-item-title" href="">
 
-            </div>
-        </section>
-    </div>
-    <!--安装指南结束-->
-</div>
-<footer>
-    <div class="footer-map">
-        <div class="container">
-            <div class="col-sm-12">
-                <div class="footer-code">
-                    <img src="img/footer-ma.jpg" alt="">
-                    <p>扫描关注沙发管家微信</p>
-                </div>
-                <div class="footer-map-block">
-                    <a href="">
-                        <h2>沙发网</h2>
-                    </a>
-                    <ul class="map-list">
-                        <li>
-                            <a href="">沙发管家</a>
-                        </li>
-                        <li>
-                            <a href="">沙发桌面</a>
-                        </li>
-                        <li>
-                            <a href="">沙发电视精灵</a>
-                        </li>
-                        <li>
-                            <a href="">安装教程</a>
-                        </li>
-                        <li>
-                            <a href="">资讯</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-map-block">
-                    <a href="">
-                        <h2>应用市场</h2>
-                    </a>
-                    <ul class="map-list">
-                        <li>
-                            <a href="">影视视频</a>
-                        </li>
-                        <li>
-                            <a href="">软件工具</a>
-                        </li>
-                        <li>
-                            <a href="">电视游戏</a>
-                        </li>
-                        <li>
-                            <a href="">最热应用</a>
-                        </li>
-                        <li>
-                            <a href="">最新应用</a>
-                        </li>
-                        <li>
-                            <a href="">专题</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-map-block">
-                    <a href="">
-                        <h2>产品库</h2>
-                    </a>
-                    <ul class="map-list">
-                        <li>
-                            <a href="">智能电视</a>
-                        </li>
-                        <li>
-                            <a href="">电视盒子</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-map-block">
-                    <a href="">
-                        <h2>用户论坛</h2>
-                    </a>
-                    <ul class="map-list">
-                        <li>
-                            <a href="">新手学堂</a>
-                        </li>
-                        <li>
-                            <a href="">设备评测</a>
-                        </li>
-                        <li>
-                            <a href="">新闻看点</a>
-                        </li>
-                        <li>
-                            <a href="">论坛</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-map-block">
-                    <a href="">
-                        <h2>开发者平台</h2>
-                    </a>
-                    <ul class="map-list">
-                        <li>
-                            <a href="">沙发支付</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-links">
-        <div class="container">
-            <div class="col-sm-8">
-                <div class="friend-links">
-                    <h2>友情链接</h2>
-                    <p>
-                        <a href="">高清范</a>&nbsp;&nbsp;<a href="">超级TV</a>&nbsp;&nbsp;<a href="">心动游戏</a>&nbsp;&nbsp;<a href="">taptap</a>&nbsp;&nbsp; <a href="">腾讯视频TV版</a>&nbsp;&nbsp;<a href="">iTools</a>&nbsp;&nbsp;<a href="">小米社区</a>&nbsp;&nbsp;<a href="">乐迷社区</a>&nbsp;&nbsp;<a href="">贝瓦儿歌</a>&nbsp;&nbsp;<a href="">多特软件下载</a>&nbsp;&nbsp;<a href="">站长之家</a>&nbsp;&nbsp;<a href="">液晶电视</a>&nbsp;&nbsp; <a href="">华数TV</a>&nbsp;&nbsp;<a href="">心动偶像补完计划</a>&nbsp;&nbsp;<a href="">正版设计稿</a>&nbsp;&nbsp;<a href="">欢视网</a>&nbsp;&nbsp;<a href="">智能电视网</a>&nbsp;&nbsp;<a href="">战旗TV</a>&nbsp;&nbsp;<a href="">高清时代网</a>&nbsp;&nbsp;<a href="">站长</a>&nbsp;&nbsp; <a href="">电视之家</a>&nbsp;&nbsp;<a href="">Win7之家</a>&nbsp&nbsp;<a href="">Win10之家</a>&nbsp;&nbsp;<a href="">小鸡模拟器</a>&nbsp;&nbsp;<a href="">统一下载站</a>&nbsp;&nbsp;<a href=""> UC社区</a>&nbsp;&nbsp;<a href="">电视应用大全</a>&nbsp;&nbsp;<a href="">安卓游戏</a>&nbsp;&nbsp; <a href="">游乐网</a>&nbsp;&nbsp;<a href="">9553下载</a>&nbsp;&nbsp;<a href="">西西软件园</a>&nbsp;&nbsp;<a href="">海信社区</a>&nbsp;&nbsp;<a href="">应用汇</a>&nbsp;&nbsp;<a href="">单机游戏下载</a>&nbsp;&nbsp;<a href="">着迷网</a>&nbsp;&nbsp; <a href="">狸窝宝典</a>&nbsp;&nbsp;<a href="">飞翔下载</a>&nbsp&nbsp;<a href="">侠游戏下载</a>&nbsp;&nbsp;<a href="">爪游控</a>&nbsp;&nbsp;<a href="">最爱视听</a>&nbsp;&nbsp;<a href=""> 足球比分</a>&nbsp;&nbsp;<a href="">客厅云电脑</a>&nbsp;&nbsp;<a href="">比分直播</a>&nbsp;&nbsp; <a href="">软件下载站</a>&nbsp;&nbsp;<a href="">北京网站建设</a>&nbsp;&nbsp;<a href="">电视剧大全</a>&nbsp;&nbsp;<a href="">飞翔游戏</a>&nbsp;&nbsp;<a href="">第九软件网</a>&nbsp;&nbsp; <a href="">上海装修网</a>&nbsp;&nbsp;<a href="">华彩软件下载</a>&nbsp;&nbsp;<a href="">更多...</a>
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="about-link">
-                    <p>
-                        <a href="">
-                            <img src="img/link.png" alt="">
-                        </a>
-                    </p>
-                    <p>
-                        <a href="">
-                            关于我们
-                        </a>
-                        <span>·</span>
-                        <a href="">加入我们</a><span>·</span>
-                        <a href="">商务合作</a><span>·</span>
-                        <a href="">侵权投诉</a><span>·</span>
-                        <a href="">手机版</a>
-                    </p>
-                    <p>
-                        ©&nbsp; 2017&nbsp;<a href="">沙发网
-                    </a>&nbsp;<a href="">沪ICP备13017440号</a> </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+												<span class="ranking-item-2">2</span>
+												<h3>海美迪海美迪 H7四代</h3>
+												<span class="rank-item-price">￥399</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/f1a4383842c3630086a1b9595e69e4b8.jpg">
+												</div>
+												<div class="rank-item-text">
+													<p>Amlogic S912, 2GB DDR3, Android 6.0（全新通过Google CTS认证）, 4K（3840*2160 @60帧/秒）；1080p/720p/576p/480p/PAL/NTSC, HDMI2.0接口，CVBS复合视频, 左右立体声、SPDIF数字光纤, 158.8mm*104.7mm*23.6MM, 0.7kg</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li >
+											<a class="rank-item-title" href="">
 
-</body>
+												<span class="ranking-item-3">3</span>
+												<h3>天猫魔盒3Pro</h3>
+												<span class="rank-item-price">￥299</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/213098513a0f0cdd39f2b49079b8fa2d.png">
+												</div>
+												<div class="rank-item-text">
+													<p>八核 CPU A53 64位 2GHz + 多核 GPU Mali-820 mp3 750MHz, 2GB, 16GB, YunOS for TV, 3840x2160, 100*100*20mm, 193g</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li >
+											<a class="rank-item-title" href="">
+
+												<span>4</span>
+												<h3>小米盒子 3S</h3>
+												<span class="rank-item-price">￥299</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/d7d360a5c86df6eaf9bab89085c82f8e.png">
+												</div>
+												<div class="rank-item-text">
+													<p>Amlogic S905X Cortex-A53 四核 64-bit 2.0GHz + Mali-450,3+2核 750MHz, 2GB DDR3, 8GB eMMC5.1 高速闪存, 通过Google CTS认证的安卓6.0系统, 4K(3840 x 2160) HDR, USB 2.0 x 2个；HDMI 2.0 x 1个, 长度：101mm 宽度：101mm 厚度：19.5mm, 176.5g</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li >
+											<a class="rank-item-title" href="">
+
+												<span>5</span>
+												<h3>天猫魔盒M17</h3>
+												<span class="rank-item-price">￥229</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/faa5fb6e2f51bc4ba089004d8ab60f55.png">
+												</div>
+												<div class="rank-item-text">
+													<p>四核 CPU A53 64位 2GHz + GPU Mali-450 MP5, 1GB, 16GB, YunOS TV, 3840x2160, 100*100*20mm, 200g</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li >
+											<a class="rank-item-title" href="">
+
+												<span>6</span>
+												<h3>乐视U4 Pro</h3>
+												<span class="rank-item-price">￥499</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/39d7f66362780a1161527bfd9292661f.jpg">
+												</div>
+												<div class="rank-item-text">
+													<p>CPU Amlogic S905 Cortex-A53，Quad-Core 64-bit 2.0GHz +GPU 五核Mali-450 @750Mhz, 16GB，eMMC, 16GB，eMMC, Android 6.0, 4K，1080P，1080I，720P, USB2.0x1个，HDMI2.0x1个, 100*100*10.8mm, 157g</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+										<li class="last" >
+											<a class="rank-item-title" href="">
+
+												<span>7</span>
+												<h3>小米盒子3代 增强版</h3>
+												<span class="rank-item-price">￥419</span>
+											</a>
+											<div class="rank-item-content">
+												<div class="rank-item-image">
+													<img src="img/3bb9871da8011801fb484dd69d3c8d1e.jpg">
+												</div>
+												<div class="rank-item-text">
+													<p>MT8693 2核Cortex-A72 + 4核Cortex-A53 64位 2.0GHz, 2GB LPDDR3 双通道, 通过Google CTS认证的安卓5.1系统, 4K(3840 X 2160), USB 2.0 x 2个；HDMI 2.0 x 1个, 长度：100mm 宽度：100mm 厚度：25mm 脚垫厚度：0.8mm, 190g</p>
+													<a class="btn btn-primary pull-right" href="">查看</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+						<script type="text/javascript">
+							var presentations=document.querySelectorAll(".panel-body .nav-tabs li");							
+							var tabpanes=document.querySelectorAll(".tab-pane");
+							var tabpanesNow=tabpanes[0];
+							var tabNow=presentations[0];
+							Array.from(presentations).forEach(function(btn,index){
+								btn.onclick=function(){
+									tabNow.classList.remove("active");
+									tabpanesNow.classList.remove("active");
+									presentations[index].classList.add("active");
+									tabpanes[index].classList.add("active");
+									tabpanesNow=tabpanes[index];
+									tabNow=presentations[index];
+								}
+							});
+							
+							var listUnstyleds=document.querySelectorAll(".list-unstyled.devices-rank-list li");
+							console.log(listUnstyleds)
+							var listUnstyledNow=listUnstyleds[0];
+							Array.from(listUnstyleds).forEach(function(li,index){
+								li.onmouseover=function(){
+									listUnstyledNow.classList.remove("active");
+									li.classList.add("active");
+									listUnstyledNow=li;
+								}
+							});
+							
+						</script>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<section class="index-hot-devices">
+						<div class="page-header index-section-header">
+							<h2>热门产品安装指南</h2>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="hot-device-item">
+									<a href="">
+										<img class="device-item-img" src="img/86f68fd437c2f6220c0d3d308b6f17f60f1a54ca.jpg">
+										<h3 class="device-item-title clearfix">天猫魔盒M13<img class="pull-right" src="img/402eced6e7186de202097ea329699de15f704222.png" alt=""></h3>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="hot-device-item">
+									<a href="">
+										<img class="device-item-img" src="img/1163a58658dbba83c15ca2e2dbd01eeb.jpg">
+										<h3 class="device-item-title clearfix">华为荣耀盒子Pro<img class="pull-right" src="img/402eced6e7186de202097ea329699de15f704222.png" alt=""></h3>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="hot-device-item">
+									<a href="">
+										<img class="device-item-img" src="img/f9f0f82c95281c796fecbfb84c0c0e6cae051f5f.jpg">
+										<h3 class="device-item-title clearfix">小米盒子3<img class="pull-right" src="img/402eced6e7186de202097ea329699de15f704222.png" alt=""></h3>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="hot-device-item">
+									<a href="">
+										<img class="device-item-img" src="img/1aceca9a040522915b1e46f57e934e3b0a982e56.jpg">
+										<h3 class="device-item-title clearfix">英菲克i9<img class="pull-right" src="img/402eced6e7186de202097ea329699de15f704222.png" alt=""></h3>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="hot-device-item">
+									<a href="">
+										<img class="device-item-img" src="img/3e0ed2fc447f62c85cda32cd87590104e69615ea.jpg">
+										<h3 class="device-item-title clearfix">KKTV<img class="pull-right" src="img/402eced6e7186de202097ea329699de15f704222.png" alt=""></h3>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="hot-device-item">
+									<a href="">
+										<img class="device-item-img" src="img/07a3389f0a38243ae8ae9743691b0b6c3d722bc6.jpg">
+										<h3 class="device-item-title clearfix">乐视TV S50 Air<img class="pull-right" src="img/402eced6e7186de202097ea329699de15f704222.png" alt=""></h3>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="hot-device-item">
+									<a href="">
+										<img class="device-item-img" src="img/16385e0b0018c67fee7028dfac19a562db28fb8d.jpg">
+										<h3 class="device-item-title clearfix">微鲸电视<img class="pull-right" src="img/402eced6e7186de202097ea329699de15f704222.png" alt=""></h3>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="hot-device-item">
+									<a href="">
+										<img class="device-item-img" src="img/bf25a9028230dd2dc17c96425f35db94381589a1.jpg">
+										<h3 class="device-item-title clearfix">小米电视3<img class="pull-right" src="img/402eced6e7186de202097ea329699de15f704222.png" alt=""></h3>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+
+		<!--底部-->
+		<footer class="footer">
+			<section class="footer-maps">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="footer-qr-code">
+								<img src="img/2a4d32257b925d36207f84e5b2946fc45de11cf9.jpg">
+								<p>扫描关注沙发管家微信</p>
+							</div>
+							<div class="footer-maps-block">
+								<a href="">
+									<h2>沙发网</h2></a>
+								<ul class="list-unstyled footer-maps-list">
+									<li>
+										<a href="">沙发管家</a>
+									</li>
+									<li>
+										<a href="">沙发桌面</a>
+									</li>
+									<li>
+										<a href="">沙发电视精灵</a>
+									</li>
+									<li>
+										<a href="">安装教程</a>
+									</li>
+									<li>
+										<a href="">资讯</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer-maps-block">
+								<a href="">
+									<h2>应用市场</h2></a>
+								<ul class="list-unstyled footer-maps-list">
+									<li>
+										<a href="">影视视频</a>
+									</li>
+									<li>
+										<a href="">软件工具</a>
+									</li>
+									<li>
+										<a href="">电视游戏</a>
+									</li>
+									<li>
+										<a href="">最热应用</a>
+									</li>
+									<li>
+										<a href="">最新应用</a>
+									</li>
+									<li>
+										<a href="">专题</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer-maps-block">
+								<a href="">
+									<h2>产品库</h2></a>
+								<ul class="list-unstyled footer-maps-list">
+									<li>
+										<a href="">智能电视</a>
+									</li>
+									<li>
+										<a href="">电视盒子</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer-maps-block">
+								<a href="">
+									<h2>用户论坛</h2></a>
+								<ul class="list-unstyled footer-maps-list">
+									<li>
+										<a href="">新手学堂</a>
+									</li>
+									<li>
+										<a href="">设备评测</a>
+									</li>
+									<li>
+										<a href="">新闻看点</a>
+									</li>
+									<li>
+										<a href="">论坛</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer-maps-block">
+								<a href="">
+									<h2>开发者平台</h2></a>
+								<ul class="list-unstyled footer-maps-list">
+									<li>
+										<a href="">沙发支付</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="footer-links">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8">
+							<div class="footer-friend-links">
+								<h2>友情链接：</h2>
+								<p>
+									<a href="">高清范</a>
+									&nbsp;
+									<a href="">超级TV</a>
+									&nbsp;
+									<a href="">心动游戏</a>
+									&nbsp;
+									<a href="">taptap</a>
+									&nbsp;
+									<a href="">腾讯视频TV版</a>
+									&nbsp;
+									<a href="">iTools</a>
+									&nbsp;
+									<a href="">小米社区</a>
+									&nbsp;
+									<a href="">乐迷社区</a>
+									&nbsp;
+									<a href="">贝瓦儿歌</a>
+									&nbsp;
+									<a href="">多特软件下载</a>
+									&nbsp;
+									<a href="">站长之家</a>
+									&nbsp;
+									<a href="">液晶电视</a>
+									&nbsp;
+									<a href="">华数TV</a>
+									&nbsp;
+									<a href="">心动偶像补完计划</a>
+									&nbsp;
+									<a href="">正版设计稿</a>
+									&nbsp;
+									<a href="">欢视网</a>
+									&nbsp;
+									<a href="">智能电视网</a>
+									&nbsp;
+									<a href="">战旗TV</a>
+									&nbsp;
+									<a href="">高清时代网</a>
+									&nbsp;
+									<a href="">站长</a>
+									&nbsp;
+									<a href="">电视之家</a>
+									&nbsp;
+									<a href="">Win7之家</a>
+									&nbsp;
+									<a href="">Win10之家</a>
+									&nbsp;
+									<a href="">小鸡模拟器</a>
+									&nbsp;
+									<a href="">统一下载站</a>
+									&nbsp;
+									<a href=""> UC社区</a>
+									&nbsp;
+									<a href="">电视应用大全</a>
+									&nbsp;
+									<a href="">安卓游戏</a>
+									&nbsp;
+									<a href="">游乐网</a>
+									&nbsp;
+									<a href="">9553下载</a>
+									&nbsp;
+									<a href="">西西软件园</a>
+									&nbsp;
+									<a href="">海信社区</a>
+									&nbsp;
+									<a href="">应用汇</a>
+									&nbsp;
+									<a href="">单机游戏下载</a>
+									&nbsp;
+									<a href="">着迷网</a>
+									&nbsp;
+									<a href="">狸窝宝典</a>
+									&nbsp;
+									<a href="">飞翔下载</a>
+									&nbsp;
+									<a href="">侠游戏下载</a>
+									&nbsp;
+									<a href="">爪游控</a>
+									&nbsp;
+									<a href="">最爱视听</a>
+									&nbsp;
+									<a href="">足球比分</a>
+									&nbsp;
+									<a href="">客厅云电脑</a>
+									&nbsp;
+									<a href="">比分直播</a>
+									&nbsp;
+									<a href="">软件下载站</a>
+									&nbsp;
+									<a href="">北京网站建设</a>
+									&nbsp;
+									<a href="">电视剧大全</a>
+									&nbsp;
+									<a href="">飞翔游戏</a>
+									&nbsp;
+									<a href="">第九软件网</a>
+									&nbsp;
+									<a href="">上海装修网</a>
+									&nbsp;
+									<a href="">华彩软件下载</a>
+									<a href="">更多...</a>
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="footer-about-links">
+								<p>
+									<a rel="nofollow">
+										<img src="img/sm_124x47.png" width="124" height="47"></a>
+								</p>
+								<p>
+									<a href="">关于我们</a> <span class="mute">·</span>
+									<a href="">加入我们</a> <span class="mute">·</span>
+									<a href="">商务合作</a> <span class="mute">·</span>
+									<a href="">侵权投诉</a>
+									<span class="mute">·</span>
+									<a href="">手机版</a>
+								</p>
+								<p>
+									©&nbsp;2017&nbsp;
+									<a href="">沙发网</a>&nbsp;
+									<a href="">沪ICP备13017440号</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+	</body>
+
 </html>

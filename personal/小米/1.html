@@ -1353,21 +1353,22 @@
 	var roll=document.querySelector(".roll");
 	var roll1=document.querySelector(".roll1");
 	var num1=0;
-	roll.onclick=function (){
-		if(num1==2){
-			num1=0;
-//			return;
+	roll.onclick=function () {
+		if(num1>=2){
+			num1=2;
+			return;
 		}
-//		return;
 		num1++;
 		bookxia.style.marginLeft=-296*num1+"px";
 	};
-	roll1.onclick=function() {
+//	var num2=2;
+	roll1.onclick=function () {
 		if(num1<0){
+			num1=0;
 			return;
 		}
-		num1-=1;
-		bookxia.style.marginLeft=0*num1+"px";
-	};
+		num1--;
+		bookxia.style.marginLeft=148*num1+"px";
+	}
 </script>
 </html>
