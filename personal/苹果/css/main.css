@@ -1,419 +1,440 @@
-.head{
+header .header-top {
 	width: 100%;
-	background: #444444;
-	overflow: hidden;
-}
-.head main{
-	height: 100%;
-    margin: 0 auto;
-    max-width: 976px;
-}
-.head main div{
-	font-size: 12px;
-	color: #a8a8a8;
-	float: right;
-	line-height: 40px;
-}
-.head-top{
-	width: 100%;
-	background: rgba(0, 0, 0, 0.8);
-	overflow: hidden;
+	height: 40px;
+	background: #444;
 }
 
-.head-top main ul{
-	text-align:justify;
+header a {
+	color: white;
 }
-.head-top main ul:after{
+
+header a:hover {
+	opacity: 0.6;
+}
+
+.header-top main {
+	height: 100%;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: right;
+	color: #a8a8aa;
+	font-size: 12px;
+}
+
+.header-nav {
+	width: 100%;
+	height: 44px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.header-nav main {
+	padding: 0 24px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header-nav main ul {
+	text-align: justify;
+	line-height: 44px;
+	font-size: 14px;
+	color: white;
+}
+
+.header-nav main ul:after {
 	content: "";
 	display: inline-block;
+	height: 0;
 	width: 100%;
-	height: 0px;
 }
-.head-top main ul li{
+
+.header-nav main ul li {
 	display: inline-block;
-	line-height: 44px;
-	color: #fff;
 }
-.banner{
+
+.banner {
 	width: 100%;
-	height: 500px;
+	height: 544px;
+	/* background: blue;	 */
 	position: relative;
+	overflow: hidden;
 }
-.banner-zhong{
-		width:  100%;
-		height: 100%;
-		margin: 0 auto;
+
+.banner-title1 {
+	text-align: center;
+	padding-top: 36px;
+	font-size: 30px;
 }
-.banner-zhong a{
-	display: block;
+
+.banner-title2 {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 40px;
+}
+
+.banner-img {
 	width: 100%;
-	height: 100%;
-}
-.banner-left{
-	width: 10%;
-	height: 100%;
+	height: 400px;
+	/* background: yellow; */
 	position: absolute;
+	bottom: 0;
+	background-image: url('../img/macbookpro_large.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.banner-img1 {
+	background-image: url('../img/iphone_alt_large.jpg');
+}
+
+.bannerleft,
+.bannerright {
+	width: 150px;
+	height: 555px;
+	position: absolute;
+	/* background: pink; */
+	margin: auto;
 	top: 0;
+	z-index: 999;
+	cursor: pointer;
+}
+
+.bannerleft {
 	left: 0;
-	margin:auto;
 }
-.banner-left1{
+
+.bannerright {
+	right: 0;
+}
+
+.banner-jiantou1,
+.banner-jiantou2 {
 	width: 64px;
 	height: 64px;
-	position: absolute;
-	top: 200px;
-	left: 50px;
-	background: #F5F5F5;
 	border-radius: 50%;
-	font-size: 50px;
-	text-align: center;
-	line-height: 64px;
-	color: #fff;
-	opacity: 0;
-}
-.banner-right1{
-	width: 64px;
-	height: 64px;
-	position: absolute;
-	top: 200px;
-	right:50px;
-	background: #F5F5F5;
-	border-radius: 50%;
-	font-size: 50px;
-	text-align: center;
-	line-height: 64px;
-	color: #fff;
-	opacity: 0;
-}
-.banner-right{
-	width: 10%;
-	height: 100%;
 	position: absolute;
 	top: 0;
-	right:0;
-	margin:auto;
+	bottom: 0;
+	margin: auto;
+	background: black;
+	text-align: center;
+	line-height: 64px;
+	color: white;
+	font-size: 32px;
+	opacity: 0;
 }
-.banner-left:hover .banner-left1{
-	opacity: 1;
+
+.banner-jiantou1 {
+	left: 15px;
 }
-.banner-right:hover .banner-right1{
-	opacity: 1;
+
+.banner-jiantou2 {
+	right: 15px;
 }
-.lunbo{
+
+.bannerleft:hover .banner-jiantou1 {
+	opacity: 0.1;
+}
+
+.bannerright:hover .banner-jiantou2 {
+	opacity: 0.1;
+}
+
+.picture {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 2px;
+	background: pink;
+}
+
+.lunbotiao {
 	width: 180px;
-	height: 22px;
+	height: 2px;
 	position: absolute;
-	bottom: 0px;
 	left: 0;
 	right: 0;
+	bottom: 32px;
 	margin: auto;
+	/* background: pink; */
+	z-index: 999;
 }
-.lunbo ul li{
+
+.lunbotiao1 {
 	width: 50px;
 	height: 2px;
-	background: #000;
-	float: left;
-	margin-left: 10px;
-}
-.content{
-	width: 100%;
-	overflow: hidden;
-}
-.end{
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	background: #F2F2F2;
-}
-.end-zi span{
-	font-size:18px;
-	color: #713131;
-	margin-top: 5px;
-}
-.end-zi ul li{
-	font-size: 14px;
-	color: #555555;
-	margin-top: 5px;
-}
-.end-zi ul{
-	width: 20%;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: white;
+	opacity: 0.2;
 	float: left;
 }
-.end-zi .chang{
-	color: #000;
+.lunbotiao1.active{
+	opacity: 0.8;
 }
 
-@media screen and (min-width:1024px){
-	.head-top main{
-		width: 1024px;
-		height: 44px;
-		margin: 0 auto;
-	}
-	.banner-zhong a{
-		background-image: url('../img/banner.jpg');
-		background-position: center bottom;
-		background-size: contain;
-		background-repeat: no-repeat;
-	}
-	.content1{
-		width: 25%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/1.jpg');
-		background-position: center center;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		float: left;
-    }
-    .content2{
-		width: 25%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/2.jpg');
-		background-position: center center;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		float: left;
-    }
-    .content3{
-		width: 25%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/3.jpg');
-		background-position: center center;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		float: left;
-    }
-    .content4{
-		width: 25%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/4.jpg');
-		background-position: center center;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		float: left;
-    }
-	.end-zi{
-	width: 980px;
-	background:#F2F2F2;
+.picture {
+	width: 100%;
+	overflow: hidden;
+}
+
+.picture ul li {
+	display: inline-block;
+	height: 200px;
+	/* background: yellow; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	border: 1px solid white;
+}
+
+footer {
+	width: 100%;
+	overflow: hidden;
+	background: #f2f2f2;
+}
+
+.middle {
+	max-width: 980px;
+	border-bottom: 1px solid #d6d6d6;
 	margin: 0 auto;
-	overflow: hidden;
-   }
-   .foot-bottom{
-   		max-width: 1000px;
-		margin: 0 auto;
-		padding: 30px 10px;
-		overflow: hidden;
-	}
-	.first1{
-		font-size: 12px;
-		color: #808080;
-	}
-	.foot-kong{
-		width: 900px;
-		height: 1px;
-	}
-	.first2{
-		font-size: 12px;
-		float: left;
-		color: #808080;
-	}
-	.foot-bottom ul{	
-	
-	}
-	.foot-bottom ul li{
-		font-size: 12px;
-		float: left;
-		margin-left: 5px;
-		color: #808080;
-	}
-	.first3{
-		font-size: 12px;
-		color: #808080;
-	}
-	.end-zi .min{
-		display: none;
-	}
+	padding: 20px 0;
 }
-@media screen and (max-width:1024px){
-	.head main div{
-		padding: 0 24px;
-	}
-	.head-top main{
-		padding: 0 24px;
-	}
-	.banner-zhong a{
-		background-image: url('../img/banner1.jpg');
-		background-position: center bottom;
-		background-size: contain;
-		background-repeat: no-repeat;
-	}
-	.content1{
-		width: 50%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/1.jpg');
-		background-position: center center;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		float: left;
-    }
-    .content2 {
-		width: 50%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/2.jpg');
-		background-position: center center;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		float: left;
-    }
-    .content3 {
-		width: 50%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/3.jpg');
-		background-position: center center;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		float: left;
-    }
-    .content4 {
-		width: 50%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/4.jpg');
-		background-position: center center;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		float: left;
-    }
-    .end-zi{
-		padding: 0 30px;
-		overflow: hidden;
-	}
-	.foot-bottom{
-   		max-width: 1000px;
-		margin: 0 auto;
-		padding: 30px 10px;
-		overflow: hidden;
 
+.middlewz {
+	font-size: 9px;
+	line-height: 12px;
+}
+
+.fuwu {
+	max-width: 980px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.fuwu-max li {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	height: 280px;
+	/* background: pink; */
+	padding: 20px 0 40px 0;
+	font-size: 10px;
+	line-height: 20px;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+.fuwu-min li {
+	line-height: 30px;
+	font-size: 9px;
+	border-bottom: 1px solid #d6d6d6;
+	position: relative;
+	cursor: pointer;
+}
+
+.sublist {
+	display: none;
+}
+
+.sublist a {
+	padding-left: 20px;
+}
+
+.fuwu-min span {
+	float: right;
+}
+
+.middle a {
+	color: blue;
+}
+
+.weibu {
+	max-width: 980px;
+	overflow: hidden;
+	margin: 0 auto;
+	font-size: 9px;
+	padding: 10px 0 25px 0;
+}
+
+
+/* >1024 */
+
+@media screen and (min-width: 1024px) {
+	.header-top main {
+		max-width: 976px;
 	}
-	.first1{
-		width: 100%;
-		font-size: 12px;
-		float: left;
-		color: #808080;
-		margin-top: 30px;
+	.header-nav main {
+		max-width: 1024px;
 	}
-	.foot-kong{
-		width: 900px;
-		height: 1px;
+	.picture ul li {
+		width: 25%;
 	}
-	.first2{
-		font-size: 12px;
-		float: left;
-		color: #808080;
-		margin-top: 5px;
+	.picture1 {
+		background-image: url('../img/accessories_large.jpg');
 	}
-	.foot-bottom ul li{
-		font-size: 12px;
-		float: left;
-		margin-left: 5px;
-		color: #808080;
+	.picture2 {
+		background-image: url('../img/accessibility_large.jpg');
 	}
-	.first3{
-		font-size: 12px;
-		width: 100%;
-		float: left;
-		color: #808080;
-		margin-top: 5px;
+	.picture3 {
+		background-image: url('../img/airpods_large.jpg');
 	}
-	.end-zi .min{
-		display: none;
+	.picture4 {
+		background-image: url('../img/iphone_upgrade_large.jpg');
 	}
 }
-@media screen and (max-width: 768px){
-	.head-top main .max-nav{
-		display: none;
+
+
+/* <1024 */
+
+@media screen and (max-width: 1024px) {
+	.header-top main {
+		padding: 0px 25px;
 	}
-	.head-top main .min-nav{
+	.header-nav main {
+		padding: 0 24px;
+	}
+	.middle {
+		margin: 20px 25px;
+	}
+	.fuwu {
+		margin: 0 25px;
+	}
+	.weibu {
+		padding: 10px 25px 25px 25px;
+	}
+}
+
+
+/* 768-1024 */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.banner-title1 {
+		font-size: 25px;
+	}
+	.banner-title2 {
+		font-size: 30px;
+	}
+	.banner-img {
+		background-image: url('../img/macbookpro_middle.jpg');
+	}
+	.banner-img1 {
+		background-image: url('../img/iphone_alt_medium.jpg');
+	}
+	.picture ul li {
+		width: 50%;
+	}
+	.picture1 {
+		background-image: url('../img/accessories_medium.jpg');
+	}
+	.picture2 {
+		background-image: url('../img/accessibility_medium.jpg');
+	}
+	.picture3 {
+		background-image: url('../img/airpods_medium.jpg');
+	}
+	.picture4 {
+		background-image: url('../img/iphone_upgrade_medium.jpg');
+	}
+	
+}
+
+
+/* >768 */
+
+@media screen and (min-width: 768px) {
+	.header-nav main .max-nav {
 		display: block;
 	}
-	.banner-zhong {
-		background-image: url('../img/banner2.jpg');
-		background-position: center bottom;
-		background-size: contain;
-		background-repeat: no-repeat;
+	.header-nav main .min-nav {
+		display: none;
 	}
-	.content1 {
+	.fuwu-max {
+		display: block;
+	}
+	.fuwu-min {
+		display: none;
+	}
+	.china {
+		float: right;
+	}
+}
+
+
+/* <768 */
+
+@media screen and (max-width: 768px) {
+	.header-nav main .max-nav {
+		display: none;
+	}
+	.header-nav main .min-nav {
+		display: block;
+	}
+	.picture ul li {
 		width: 100%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/1.jpg');
-		background-position: center center;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
+	}
+	.picture1 {
+		background-image: url('../img/accessories_small.jpg');
+	}
+	.picture2 {
+		background-image: url('../img/accessibility_small.jpg');
+	}
+	.picture3 {
+		background-image: url('../img/airpods_small.jpg');
+	}
+	.picture4 {
+		background-image: url('../img/iphone_upgrade_small.jpg');
+	}
+	.banner-title1 {
+		font-size: 20px;
+	}
+	.banner-title2 {
+		font-size: 28px;
+		min-width: 345px;
+	}
+	.banner-img {
+		background-image: url('../img/macbookpro-small.jpg');
+	}
+	.banner-img1 {
+		background-image: url('../img/iphone_alt_small.jpg');
+	}
+	.fuwu-max {
+		display: none;
+	}
+	.fuwu-min {
+		display: block;
+		margin: 0 25px;
+	}
+	.china {
 		float: left;
-    }
-    .content2 {
-		width: 100%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/2.jpg');
-		background-position: center center;
-		background-size: contain;
-		background-repeat: no-repeat;
-		float: left;
-    }
-    .content3 {
-		width: 100%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/3.jpg');
-		background-position: center center;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		float: left;
-    }
-    .content4{
-		width: 100%;
-		height: 200px;
-		border-top: 1px solid #fff;
-		border-right: 1px solid #fff;
-		background-image: url('../img/4.jpg');
-		background-position: center center;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		float: left;
-    }
-    .min-end{
-    	width: 100%;
-    	height: 100%;
-    	background: #f2f2f2;
-    	overflow: hidden;
-    }
-    .min-end .min{
-    	width: 100%;
-    	border-bottom:1px solid #000;
-    	font-size: 20px;
-    	display: block;
-    	margin-top: 25px;
-    }
-    .end-zi .max{
-    	display: none;
-    }
+	}
+	.weibu div {
+		clear: both;
+		margin: 5px 0;
+	}
+}
+
+.inner {
+	width: 100%;
+	height: 544px;
+	position: relative;
+}
+
+.inner li {
+	width: 100%;
+	height: 100%;
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all 1s;
+	opacity: 0;
+	z-index: 1;
+}
+
+.inner li:first-child {
+	opacity: 1;
+	z-index: 2;
 }
